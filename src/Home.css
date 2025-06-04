@@ -1,0 +1,19 @@
+.c-up {
+  background-color: #c3cfe2;
+  height: 25rem;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: center;
+}
+
+.c-up-text1 {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  padding: 50px 60px 60px 60px;
+}
+
+.c-up-text2 {
+  color: grey;
+  font-size: 20px;
+  padding: 50px 60px 60px 60px;
+}
