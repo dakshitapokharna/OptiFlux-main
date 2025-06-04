@@ -9,8 +9,12 @@ const Navbar = () => {
     <>
       <header className="nav-wrapper">
         <nav className="navbar">
-          <div className="heading">OptiFlux</div>
-
+        <a href="index.html">
+          <div className="logo">
+            Opti
+            <span>Flux</span>
+          </div>
+        </a>
           <div
             className="hamburger"
             onClick={toggle}
