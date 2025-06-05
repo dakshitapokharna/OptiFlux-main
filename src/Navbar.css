@@ -1,12 +1,13 @@
 
 .logo {
   font-size: 24px;
- text-decoration: black;
+ text-decoration: rgb(14, 13, 13);
   margin-left: 3rem;
-  color: var(--primary-color);
+  color: #1A56DB;
+  font-weight: bold;
 }
 .logo span {
-  color: var(--dark-color);
+  color: black;
   
 }
 .nav-wrapper {
@@ -42,7 +43,7 @@
   transition: color 0.3s;
 }
 .nav-link:hover {
-  color: rgb(15, 102, 242);
+  color: #1A56DB;
 }
 .hamburger {
   flex-direction: column;
