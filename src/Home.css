@@ -3,6 +3,10 @@
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   height: auto;
   justify-content: space-between;
+  padding: 2rem 2rem 2rem 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  height: auto;
+  justify-content: space-between;
   overflow: hidden;
   text-align: center;
 }
@@ -47,8 +51,10 @@
 }
 .c-up-text1 {
   font-weight: bold;
+  font-weight: bold;
   color: rgb(0, 0, 0);
   font-size: 50px;
+  padding: 70px 70px 60px 60px;
   padding: 70px 70px 60px 60px;
 }
 
