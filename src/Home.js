@@ -7,7 +7,7 @@ const Home = ({ onContactClick }) => {
         <p className="c-up-text1">
           Advanced Operations Research & Optimization Solutions
         </p>
-        <p className="c-up-text2">
+        {/* <p className="c-up-text2"> */}
         <p className="c-up-text2">
           Transforming complex business challenges into optimized decisions
           through advanced analytics, mathematical modeling, and AI-powered

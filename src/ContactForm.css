@@ -7,6 +7,18 @@
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.18);
   position: relative;
+  animation: popup-appear 0.32s cubic-bezier(0.33,1,0.68,1) both;
+}
+
+@keyframes popup-appear {
+  0% {
+    opacity: 0;
+    transform: scale(0.85) translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 .contact-modal {
