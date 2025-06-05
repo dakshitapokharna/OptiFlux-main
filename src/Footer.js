@@ -1,4 +1,6 @@
-const Footer = () => {
+import "./Footer.css";
+
+const Footer = ({ onContactClick }) => {
   return (
     <div className="footer">
       <div className="f-top">
@@ -65,29 +67,29 @@ const Footer = () => {
         </div>
         <div className="f-corner">
           <ul>
-            <h3 className="f-heading2">Contcat</h3>
+            <h3 className="f-heading2">Contact</h3>
             <li className="f-list">
               <a href="" className="f-links">
                 16192 Coastal Highway Lewes,
-              </a>{" "}
+              </a>
             </li>
             <li className="f-list">
               <a href="" className="f-links">
                 Delaware 19958 USA
-              </a>{" "}
+              </a>
             </li>
             <li className="f-list">
-              <a href="" className="f-links">
+              <a href="mailto:admin@optiflux.in" className="f-links">
                 Email: admin@optiflux.in
               </a>
             </li>
             <li className="f-list">
-              <a href="" className="f-links">
+              <a href="tel:+15109568399" className="f-links">
                 Phone: +1 510 956 8399
               </a>
             </li>
             <li className="f-list">
-              <a href="" className="f-links">
+              <a href="tel:+919932298698" className="f-links">
                 Phone: +91 993 229 8698
               </a>
             </li>

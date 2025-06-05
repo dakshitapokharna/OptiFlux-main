@@ -1,0 +1,119 @@
+.contact-modal-content {
+  width: 350px;
+  max-width: 95vw;
+  min-width: 260px;
+  background: #fff;
+  padding: 1.5rem 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  position: relative;
+}
+
+.contact-modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(30, 41, 59, 0.32);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.contact-form input,
+.contact-form select {
+  width: 100%;
+  min-height: 38px;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #f8fafc;
+  transition: border 0.18s;
+}
+
+.contact-form input:focus,
+.contact-form select:focus {
+  border: 1.5px solid #2563eb;
+  outline: none;
+}
+
+.contact-form textarea {
+  width: 100%;
+  min-height: 80px;
+  max-height: 220px;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #f8fafc;
+  resize: none;
+  transition: border 0.18s;
+  overflow-y: auto; 
+}
+
+.contact-form textarea:focus {
+  border: 1.5px solid #2563eb;
+  outline: none;
+}
+
+.contact-form button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 0.65rem 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.18s, box-shadow 0.18s, transform 0.18s;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.10);
+}
+
+.contact-form button:hover,
+.contact-form button:focus {
+  background: #1d4ed8;
+  box-shadow: 0 6px 18px rgba(37,99,235,0.18);
+  transform: translateY(-2px) scale(1.03);
+  outline: none;
+}
+
+.contact-modal-close {
+  position: absolute;
+  top: 10px; right: 10px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.18s;
+}
+.contact-modal-close:hover {
+  color: #2563eb;
+}
+
+.contact-status {
+  margin-top: 0.7rem;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.country-code-select {
+  width: 90px !important;
+  min-width: 60px;
+  max-width: 110px;
+  margin-right: 0.3rem;
+  background: #f8fafc;
+}
