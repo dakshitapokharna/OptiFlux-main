@@ -48,7 +48,7 @@ const Home = ({ onContactClick }) => {
               operations to reduce costs and improve service levels.
             </p>
             <p className="learnmore">
-              <a href="#" className="learnmorelink">
+              <a href="/sco" className="learnmorelink">
                 Learn More
               </a>
             </p>
@@ -66,7 +66,7 @@ const Home = ({ onContactClick }) => {
               projects, departments, and time periods.
             </p>
             <p className="learnmore">
-              <a href="#" className="learnmorelink">
+              <a href="/resallo" className="learnmorelink">
                 Learn More
               </a>
             </p>

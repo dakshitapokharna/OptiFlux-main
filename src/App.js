@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import "./App.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import SCO from "./SCO";
+import Resallo from "./Resallo";
 import Home from "./Home";
 import ContactForm from "./ContactForm";
-
+import { Routes, Route } from "react-router-dom";
 function App() {
   const [showContact, setShowContact] = useState(false);
 
@@ -19,9 +21,15 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <>
       <Navbar onContactClick={openContact} onNavClick={handleNavClick} />
-      <Home onContactClick={openContact} />
+      <main className="page-content">
+        <Routes>
+          <Route path="/" element={<Home onContactClick={openContact} />} />
+          <Route path="/sco" element={<SCO />} />
+          <Route path="/resallo" element={<Resallo />} />
+        </Routes>
+      </main>
       <Footer onContactClick={openContact} />
       {showContact && <ContactForm onClose={closeContact} />}
       <button
@@ -32,7 +40,7 @@ function App() {
         <i className="fas fa-headset"></i>
         <span className="fab-tooltip">Schedule a Consultation</span>
       </button>
-    </div>
+    </>
   );
 }
 
