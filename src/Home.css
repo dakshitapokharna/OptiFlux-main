@@ -342,14 +342,10 @@ h2 {
   }
   .About {
     flex-direction: column-reverse;
-    
   }
   .aboutleft {
     width: 60vw;
     height: 40vh;
-  }
-  .aboutright{
- 
   }
 
   .subheadingabout {

@@ -84,7 +84,7 @@ const Home = ({ onContactClick }) => {
               workloads to meet demand while minimizing costs.
             </p>
             <p className="learnmore">
-              <a href="#" className="learnmorelink">
+              <a href="/prodplan" className="learnmorelink">
                 Learn More
               </a>
             </p>
@@ -104,7 +104,7 @@ const Home = ({ onContactClick }) => {
               requirements, employee preferences, and labor regulations.
             </p>
             <p className="learnmore">
-              <a href="#" className="learnmorelink">
+              <a href="/worksched" className="learnmorelink">
                 Learn More
               </a>
             </p>
@@ -122,7 +122,7 @@ const Home = ({ onContactClick }) => {
               minimize costs and improve service quality.
             </p>
             <p className="learnmore">
-              <a href="#" className="learnmorelink">
+              <a href="/netopti" className="learnmorelink">
                 Learn More
               </a>
             </p>

@@ -5,7 +5,10 @@ import Footer from "./Footer";
 import SCO from "./SCO";
 import Resallo from "./Resallo";
 import Home from "./Home";
+import Prodplan from "./Prodplan";
 import ContactForm from "./ContactForm";
+import Worksched from "./Worksched";
+import Netopti from "./Netopti";
 import { Routes, Route } from "react-router-dom";
 function App() {
   const [showContact, setShowContact] = useState(false);
@@ -28,6 +31,9 @@ function App() {
           <Route path="/" element={<Home onContactClick={openContact} />} />
           <Route path="/sco" element={<SCO />} />
           <Route path="/resallo" element={<Resallo />} />
+          <Route path="/prodplan" element={<Prodplan />} />
+          <Route path="/worksched" element={<Worksched />} />
+          <Route path="/netopti" element={<Netopti />} />
         </Routes>
       </main>
       <Footer onContactClick={openContact} />
