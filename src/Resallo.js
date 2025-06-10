@@ -7,7 +7,7 @@ import { faGaugeSimple } from "@fortawesome/free-solid-svg-icons";
 import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
 import { faCube } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-const Resallo = () => {
+const Resallo = ({ onContactClick }) => {
   return (
     <div>
       <div className="sco-up">
@@ -315,7 +315,7 @@ const Resallo = () => {
           Contact us today to schedule a consultation and discover how our
           resource allocation solutions can transform your operations.
         </p>
-        <button className="home-btn2">Get Started</button>
+        <button className="home-btn2" onClick={onContactClick}>Get Started</button>
       </div>
       <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>
