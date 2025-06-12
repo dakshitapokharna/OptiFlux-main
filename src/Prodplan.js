@@ -60,8 +60,7 @@ const Prodplan = () => {
           <p className="subheading">
             Leverage advanced mathematical modeling and AI-powered optimization
             to transform your production operations.
-          </p>
-
+          </p> 
           <div className="fe-container2">
             <div className="fe-up">
               <div className="fe-box">
@@ -148,6 +147,7 @@ const Prodplan = () => {
               </div>
               <div className="fe-box">
                 <div className="col">
+                  
                   <div className="icon-box">
                     <i className="faRandom">
                       <FontAwesomeIcon icon={faRandom} />
@@ -287,7 +287,6 @@ const Prodplan = () => {
               <br />
               <h3 className="fe-heading">Automotive Components Manufacturer</h3>
               <br />
-
               <p className="fe-subheading">
                 A leading automotive components manufacturer was struggling with
                 high inventory levels, frequent production changeovers, and
@@ -312,7 +311,6 @@ const Prodplan = () => {
                 Pharmaceutical Manufacturing Company
               </h3>
               <br />
-
               <p className="fe-subheading">
                 A pharmaceutical company was facing challenges with complex
                 production scheduling across multiple facilities, stringent
@@ -343,7 +341,8 @@ const Prodplan = () => {
       <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>
         <p className="subheading">
-          Explore our other optimization solutions that complement production planning
+          Explore our other optimization solutions that complement production
+          planning
         </p>
       </div>
       <div className="fe-container">
@@ -374,7 +373,6 @@ const Prodplan = () => {
               </a>
             </p>
           </div>
-
           <div className="fe-box">
             <h3 className="fe-heading">Workforce Scheduling</h3>
             <br />
