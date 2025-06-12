@@ -12,7 +12,7 @@ import { faBoxesPacking } from "@fortawesome/free-solid-svg-icons";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
-const Prodplan = () => {
+const Prodplan = ({ onContactClick }) => {
   return (
     <div>
       <div className="sco-up">
@@ -335,7 +335,7 @@ const Prodplan = () => {
           cost-effective network that enhances service quality while reducing
           costs and environmental impact.
         </p>
-        <button className="home-btn2">Get Started</button>
+        <button className="home-btn2" onClick={onContactClick}>Get Started</button>
       </div>
       <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>

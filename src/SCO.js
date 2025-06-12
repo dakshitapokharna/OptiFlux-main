@@ -4,7 +4,7 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { faNewspaper } from "@fortawesome/free-regular-svg-icons";
 import { faGaugeSimple } from "@fortawesome/free-solid-svg-icons";
 
-const SCO = () => {
+const SCO = ({ onContactClick }) => {
   return (
     <div>
       <div className="sco-up">
@@ -225,7 +225,7 @@ const SCO = () => {
           Contact us today to schedule a consultation and discover how our
           supply chain optimization solutions can transform your operations.
         </p>
-        <button className="home-btn2">Get Started</button>
+        <button className="home-btn2" onClick={onContactClick}>Get Started</button>
       </div>
       <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>
