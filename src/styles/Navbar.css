@@ -1,7 +1,7 @@
 .logo {
   font-size: 28px;
   text-decoration: rgb(14, 13, 13);
-  margin-left: 12rem;
+  margin-left: 10rem;
   color: #1a56db;
   font-weight: bold;
 }
@@ -27,7 +27,7 @@
 }
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   text-decoration: none;
   margin-top: 0.5rem;
   font-weight: 500;
@@ -74,7 +74,7 @@
   font-weight: 600;
   width: 130px;
   margin-top: 0rem;
-  margin-right: 12rem;
+  margin-right: 25rem;
   border-radius: 6px;
   height: 42px;
   border: none;
