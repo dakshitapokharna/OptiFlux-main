@@ -1,6 +1,6 @@
 .sco-up {
   padding: 2rem 2rem 2rem 2rem;
-  background-color: #1a56db;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   height: auto;
   justify-content: space-between;
   overflow: hidden;
@@ -9,7 +9,7 @@
 .sco-up-text1 {
   font-weight: bold;
   font-weight: bold;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 50px;
 
   padding: 70px 70px 60px 60px;
@@ -19,7 +19,7 @@
   font-size: 20px;
   max-width: 800px;
   margin: 0 auto 20px;
-  color: #ffffff;
+  color: #000000;
 }
 .fe-box2-sco {
     background-color: var(--white);
