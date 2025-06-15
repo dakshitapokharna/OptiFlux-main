@@ -133,7 +133,7 @@ const Home = ({ onContactClick }) => {
                 <i className="fas fa-bookmark"></i>
               </div>
             </div>
-            <h3 className="fe-heading">Custom Optimization Solutions</h3>
+            <h3 className="fe-heading">Custom Solutions</h3>
             <br />
             <p className="fe-subheading">
               Tailored optimization solutions designed to address your unique
