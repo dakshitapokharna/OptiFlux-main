@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import "./App.css";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import SCO from "./SCO";
-import Resallo from "./Resallo";
-import Home from "./Home";
-import Prodplan from "./Prodplan";
-import ContactForm from "./ContactForm";
-import Worksched from "./Worksched";
-import Netopti from "./Netopti";
+import "./styles/App.css";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import SCO from "./pages/SCO";
+import Resallo from "./pages/Resallo";
+import Home from "./pages/Home";
+import Prodplan from "./pages/Prodplan";
+import ContactForm from "./components/layout/ContactForm";
+import Worksched from "./pages/Worksched";
+import Netopti from "./pages/Netopti";
 import { Routes, Route } from "react-router-dom";
 
 function App() {

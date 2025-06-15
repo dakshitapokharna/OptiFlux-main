@@ -1,5 +1,4 @@
-import "./Home.css";
-
+import "../styles/Home.css";
 const Home = ({ onContactClick }) => {
   return (
     <div className="home">
