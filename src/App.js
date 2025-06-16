@@ -10,7 +10,7 @@ import ContactForm from "./components/layout/ContactForm";
 import Worksched from "./pages/Worksched";
 import Netopti from "./pages/Netopti";
 import { Routes, Route } from "react-router-dom";
-
+import TeamSection from "./pages/TeamSection";
 function App() {
   const [showContact, setShowContact] = useState(false);
 
@@ -30,11 +30,27 @@ function App() {
       <main className="page-content">
         <Routes>
           <Route path="/" element={<Home onContactClick={openContact} />} />
+          <Route
+            path="/about"
+            element={<TeamSection onContactClick={openContact} />}
+          />
           <Route path="/sco" element={<SCO onContactClick={openContact} />} />
-          <Route path="/resallo" element={<Resallo onContactClick={openContact} />} />
-          <Route path="/prodplan" element={<Prodplan onContactClick={openContact} />} />
-          <Route path="/worksched" element={<Worksched onContactClick={openContact} />} />
-          <Route path="/netopti" element={<Netopti onContactClick={openContact} />} />
+          <Route
+            path="/resallo"
+            element={<Resallo onContactClick={openContact} />}
+          />
+          <Route
+            path="/prodplan"
+            element={<Prodplan onContactClick={openContact} />}
+          />
+          <Route
+            path="/worksched"
+            element={<Worksched onContactClick={openContact} />}
+          />
+          <Route
+            path="/netopti"
+            element={<Netopti onContactClick={openContact} />}
+          />
         </Routes>
       </main>
       <Footer onContactClick={openContact} />

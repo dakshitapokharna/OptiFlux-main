@@ -4,6 +4,7 @@ import "./styles/index.css";
 import "./styles/Navbar.css";
 import "./styles/SCO.css";
 import "./styles/Prodplan.css";
+import "./styles/TeamSection.scss";
 import "./styles/Resallo.css";
 import App from "./App";
 import "@fortawesome/fontawesome-free/css/all.min.css";

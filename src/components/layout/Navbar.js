@@ -54,6 +54,9 @@ const Navbar = ({ onContactClick, onNavClick }) => {
           >
             About Us
           </button>
+          <button className="nav-link">
+            <a href="/about" className="nav-link">About</a>{" "}
+          </button>
           <button className="contact" onClick={onContactClick}>
             Contact Us
           </button>
