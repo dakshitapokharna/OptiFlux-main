@@ -6,7 +6,7 @@
   font-weight: bold;
 }
 .logo span {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .nav-wrapper {
   position: relative;
@@ -22,7 +22,7 @@
   align-items: center;
   font-family: Arial, sans-serif;
   user-select: none;
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: 1;
 }
 .nav-links {
@@ -39,7 +39,7 @@
   color: #222;
   font-size: 1rem;
   font-weight: 500;
-  
+  text-decoration: none;
   padding: 0;
   cursor: pointer;
   transition: color 0.18s;
@@ -89,7 +89,7 @@
   color: #fff;
   box-shadow: 0 6px 18px rgba(37, 99, 235, 0.22);
   outline: none;
-  transform: translateY(-3px) scale(1.04);
+  transform: translateY(-3px) translateY(3px) scale(1.04);
 }
 
 @media (max-width: 768px) {

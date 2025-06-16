@@ -47,7 +47,7 @@ const Home = ({ onContactClick }) => {
               operations to reduce costs and improve service levels.
             </p>
             <p className="learnmore">
-              <a href="/sco" className="learnmorelink">
+              <a href="OptiFlux//Supply-Chain-Optimization" className="learnmorelink">
                 Learn More
               </a>
             </p>
@@ -65,7 +65,7 @@ const Home = ({ onContactClick }) => {
               projects, departments, and time periods.
             </p>
             <p className="learnmore">
-              <a href="/resallo" className="learnmorelink">
+              <a href="OptiFlux/Resource-Allocation" className="learnmorelink">
                 Learn More
               </a>
             </p>
@@ -83,7 +83,7 @@ const Home = ({ onContactClick }) => {
               workloads to meet demand while minimizing costs.
             </p>
             <p className="learnmore">
-              <a href="/prodplan" className="learnmorelink">
+              <a href="OptiFlux/Production-Planning" className="learnmorelink">
                 Learn More
               </a>
             </p>
@@ -103,7 +103,7 @@ const Home = ({ onContactClick }) => {
               requirements, employee preferences, and labor regulations.
             </p>
             <p className="learnmore">
-              <a href="/worksched" className="learnmorelink">
+              <a href="OptiFlux/Workforce-Scheduling" className="learnmorelink">
                 Learn More
               </a>
             </p>
@@ -121,7 +121,7 @@ const Home = ({ onContactClick }) => {
               minimize costs and improve service quality.
             </p>
             <p className="learnmore">
-              <a href="/netopti" className="learnmorelink">
+              <a href="OptiFlux/Network-Optimization" className="learnmorelink">
                 Learn More
               </a>
             </p>

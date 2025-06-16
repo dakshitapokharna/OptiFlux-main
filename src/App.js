@@ -31,24 +31,24 @@ function App() {
         <Routes>
           <Route path="/" element={<Home onContactClick={openContact} />} />
           <Route
-            path="/about"
+            path="/About"
             element={<TeamSection onContactClick={openContact} />}
           />
-          <Route path="/sco" element={<SCO onContactClick={openContact} />} />
+          <Route path="/OptiFlux/Supply-Chain-Optimization" element={<SCO onContactClick={openContact} />} />
           <Route
-            path="/resallo"
+            path="/OptiFlux/Resource-Allocation"
             element={<Resallo onContactClick={openContact} />}
           />
           <Route
-            path="/prodplan"
+            path="/OptiFlux/Production-Planning"
             element={<Prodplan onContactClick={openContact} />}
           />
           <Route
-            path="/worksched"
+            path="/OptiFlux/Workforce-Scheduling"
             element={<Worksched onContactClick={openContact} />}
           />
           <Route
-            path="/netopti"
+            path="/OptiFlux/Network-Optimization"
             element={<Netopti onContactClick={openContact} />}
           />
         </Routes>
