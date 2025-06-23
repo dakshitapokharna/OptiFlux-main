@@ -23,11 +23,11 @@ const Prodplan = ({ onContactClick }) => {
           capacity management.
         </p>
       </div>
-
       <div className="About" id="about">
         <div className="aboutleft">Production Planning Image</div>
         <div className="aboutright">
           <p className="heading"> Why Production Planning Matters</p>
+          <br />
           <p className="subheadingabout">
             In today's competitive manufacturing environment, optimized
             production planning is essential for maintaining profitability and
@@ -52,115 +52,116 @@ const Prodplan = ({ onContactClick }) => {
           </p>
         </div>
       </div>
-      <div className="sectiontext" id="industries">
-        <div className="industries">
-          <h2 className="heading">
-            Key Features of Our Production Planning Solutions
-          </h2>
-          <p className="subheading">
-            Leverage advanced mathematical modeling and AI-powered optimization
-            to transform your production operations.
-          </p> 
-          <div className="fe-container2">
-            <div className="fe-up">
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faCalendarAlt">
-                      <FontAwesomeIcon icon={faCalendarAlt} />
-                    </i>
+      <div className="industries-section">
+        <div className="sectiontext" id="industries">
+          <div className="industries">
+            <h2 className="heading">
+              Key Features of Our Production Planning Solutions
+            </h2>
+            <p className="subheading">
+              Leverage advanced mathematical modeling and AI-powered
+              optimization to transform your production operations.
+            </p>
+            <div className="fe-container2">
+              <div className="fe-up">
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faCalendarAlt">
+                        <FontAwesomeIcon icon={faCalendarAlt} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Production Scheduling</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Create optimal master production schedules that balance
+                    demand forecasts, capacity constraints, and inventory
+                    targets to minimize costs and maximize service levels.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Production Scheduling</h3>
-                <br />
-                <p className="fe-subheading">
-                  Create optimal master production schedules that balance demand
-                  forecasts, capacity constraints, and inventory targets to
-                  minimize costs and maximize service levels.
-                </p>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faListCheck">
+                        <FontAwesomeIcon icon={faListCheck} />
+                      </i>
+                    </div>
+                  </div>
+                  <h3 className="fe-heading">Detailed Scheduling</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Generate detailed production schedules that minimize
+                    changeover times, optimize machine utilization, and ensure
+                    on-time delivery while accounting for resource constraints.
+                  </p>
+                </div>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faCubes">
+                        <FontAwesomeIcon icon={faCubes} />
+                      </i>
+                    </div>
+                  </div>
+                  <h3 className="fe-heading">Lot Sizing Optimization</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Determine optimal production lot sizes that balance setup
+                    costs, inventory holding costs, and other operational
+                    considerations for maximum efficiency.
+                  </p>
+                </div>
               </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faListCheck">
-                      <FontAwesomeIcon icon={faListCheck} />
-                    </i>
+              <div className="fe-up">
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faClipboardList">
+                        <FontAwesomeIcon icon={faClipboardList} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Material Flow Coordinator</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Optimize the timing and quantity of material orders to
+                    reduce inventory costs while ensuring materials are
+                    available when needed for production.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Detailed Scheduling</h3>
-                <br />
-                <p className="fe-subheading">
-                  Generate detailed production schedules that minimize
-                  changeover times, optimize machine utilization, and ensure
-                  on-time delivery while accounting for resource constraints.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faCubes">
-                      <FontAwesomeIcon icon={faCubes} />
-                    </i>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faBalanceScale">
+                        <FontAwesomeIcon icon={faBalanceScale} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Capacity Planning</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Balance workloads across machines, production lines, and
+                    facilities to optimize resource utilization and identify
+                    capacity constraints.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Lot Sizing Optimization</h3>
-                <br />
-                <p className="fe-subheading">
-                  Determine optimal production lot sizes that balance setup
-                  costs, inventory holding costs, and other operational
-                  considerations for maximum efficiency.
-                </p>
-              </div>
-            </div>
-            <div className="fe-up">
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faClipboardList">
-                      <FontAwesomeIcon icon={faClipboardList} />
-                    </i>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faRandom">
+                        <FontAwesomeIcon icon={faRandom} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Scenario Analysis</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Evaluate multiple production scenarios to assess the impact
+                    of different demand patterns, resource constraints, and
+                    other factors on production performance.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Material Flow Coordinator</h3>
-                <br />
-                <p className="fe-subheading">
-                  Optimize the timing and quantity of material orders to reduce
-                  inventory costs while ensuring materials are available when
-                  needed for production.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faBalanceScale">
-                      <FontAwesomeIcon icon={faBalanceScale} />
-                    </i>
-                  </div>
-                </div>
-                <h3 className="fe-heading">Capacity Planning</h3>
-                <br />
-                <p className="fe-subheading">
-                  Balance workloads across machines, production lines, and
-                  facilities to optimize resource utilization and identify
-                  capacity constraints.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  
-                  <div className="icon-box">
-                    <i className="faRandom">
-                      <FontAwesomeIcon icon={faRandom} />
-                    </i>
-                  </div>
-                </div>
-                <h3 className="fe-heading">Scenario Analysis</h3>
-                <br />
-                <p className="fe-subheading">
-                  Evaluate multiple production scenarios to assess the impact of
-                  different demand patterns, resource constraints, and other
-                  factors on production performance.
-                </p>
               </div>
             </div>
           </div>
@@ -278,7 +279,7 @@ const Prodplan = ({ onContactClick }) => {
           Real-world examples of how our production planning solutions have
           transformed manufacturing operations.
         </p>
-        <div className="fe-container">
+        <div className="fe-container3">
           <div className="fe-up">
             <div className="fe-box2-pp">
               <div class="box-image-pp">
@@ -329,16 +330,21 @@ const Prodplan = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <div className="sco-up">
-        <p className="sco-up-text1">Transform Your Production Planning</p>
-        <p className="sco-up-text2">
+      <br />
+      <div className="lastsection">
+        <p className="headinglast">Transform Your Production Planning</p>
+        <p className="subheadinglast">
           Let our team of optimization experts help you unlock new levels of
           manufacturing efficiency and profitability through advanced production
           planning solutions.
         </p>
-        <button className="home-btn2" onClick={onContactClick}>Get Started</button>
+        <br />
+        <button className="btn4" onClick={onContactClick}>
+          Get Started
+        </button>
       </div>
-      <div className="sectiontext" id="services">
+      <br /> <br />
+      {/* <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>
         <p className="subheading">
           Explore our other optimization solutions that complement production
@@ -388,7 +394,7 @@ const Prodplan = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <br />
+      <br /> */}
     </div>
   );
 };

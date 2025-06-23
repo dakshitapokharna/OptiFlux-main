@@ -29,6 +29,7 @@ const Prodplan = ({ onContactClick }) => {
         <div className="aboutright">
           <p className="heading"> Why Network Optimization Matters</p>
           <p className="subheadingabout">
+            <br />
             In today's complex global business environment, an optimally
             designed distribution network is essential for maintaining
             competitiveness and profitability. The right network configuration
@@ -48,6 +49,7 @@ const Prodplan = ({ onContactClick }) => {
           </p>
         </div>
       </div>
+      <div className="industries-section">
       <div className="sectiontext" id="industries">
         <div className="industries">
           <h2 className="heading">
@@ -162,6 +164,7 @@ const Prodplan = ({ onContactClick }) => {
             </div>
           </div>
         </div>
+      </div>
       </div>
       <div className="sectiontext" id="industries">
         <div className="industries">
@@ -328,16 +331,18 @@ const Prodplan = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <div className="sco-up">
-        <p className="sco-up-text1">Transform Your Distribution Network</p>
-        <p className="sco-up-text2">
+      <div className="lastsection">
+        <p className="headinglast">Transform Your Distribution Network</p>
+        <p className="subheadinglast">
           Let our team of optimization experts help you design a resilient,
           cost-effective network that enhances service quality while reducing
           costs and environmental impact.
         </p>
-        <button className="home-btn2" onClick={onContactClick}>Get Started</button>
+        <br />
+        <button className="btn4" onClick={onContactClick}>Get Started</button>
       </div>
-      <div className="sectiontext" id="services">
+      <br /><br />
+      {/* <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>
         <p className="subheading">
           Explore our other optimization solutions that complement network optimisation
@@ -387,7 +392,7 @@ const Prodplan = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <br />
+      <br /> */}
     </div>
   );
 };

@@ -12,7 +12,7 @@ import { faBoxesPacking } from "@fortawesome/free-solid-svg-icons";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
-const Prodplan = ({ onContactClick }) => {
+const Worksched = ({ onContactClick }) => {
   return (
     <div>
       <div className="sco-up">
@@ -28,6 +28,7 @@ const Prodplan = ({ onContactClick }) => {
         <div className="aboutleft">Workforce Scheduling Image</div>
         <div className="aboutright">
           <p className="heading"> Why Workforce Scheduling Matters</p>
+          <br />
           <p className="subheadingabout">
             In today's complex business environment, creating efficient and fair
             employee schedules is a significant challenge. Poor scheduling
@@ -46,6 +47,7 @@ const Prodplan = ({ onContactClick }) => {
           </p>
         </div>
       </div>
+      <div className="industries-section">
       <div className="sectiontext" id="industries">
         <div className="industries">
           <h2 className="heading">
@@ -159,6 +161,7 @@ const Prodplan = ({ onContactClick }) => {
             </div>
           </div>
         </div>
+      </div>
       </div>
       <div className="sectiontext" id="industries">
         <div className="industries">
@@ -328,16 +331,18 @@ const Prodplan = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <div className="sco-up">
-        <p className="sco-up-text1">Transform Your Workforce Scheduling</p>
-        <p className="sco-up-text2">
+      <div className="lastsection">
+        <p className="headinglast">Transform Your Workforce Scheduling</p>
+        <p className="subheadinglast">
           Let our team of optimization experts help you balance operational
           efficiency, employee satisfaction, and regulatory compliance through
           advanced workforce scheduling solutions.
         </p>
-        <button className="home-btn2" onClick={onContactClick}>Get Started</button>
+        <br />
+        <button className="btn4" onClick={onContactClick}>Get Started</button>
       </div>
-      <div className="sectiontext" id="services">
+      <br /><br />
+      {/* <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>
         <p className="subheading">
           Explore our other optimization solutions that complement resource
@@ -388,8 +393,8 @@ const Prodplan = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <br />
+      <br /> */}
     </div>
   );
 };
-export default Prodplan;
+export default Worksched;

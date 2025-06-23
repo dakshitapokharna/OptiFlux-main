@@ -13,17 +13,18 @@ const Home = ({ onContactClick }) => {
           solutions.
         </p>
         <div className="home-buttons">
-          <button className="home-btn1">
-            <a href="#" className="btn1">
-              Explore Solutions
-            </a>
-          </button>
           <button className="home-btn2" onClick={onContactClick}>
             Schedule a Consultation
           </button>
         </div>
       </div>
-
+      <br />
+      <br />
+      <br />
+      <br /> <br />
+      <br />
+      <br />
+      <br />
       <div className="sectiontext" id="services">
         <h2 className="heading">Our Optimization Services</h2>
         <p className="subheading">
@@ -40,14 +41,17 @@ const Home = ({ onContactClick }) => {
                 <i className="fas fa-align-right"></i>
               </div>
             </div>
-            <h3 className="fe-heading">Supply Chain Optimization</h3>
+            <h3 className="fe-heading">Supply Chain <br /> Optimization</h3>
             <br />
             <p className="fe-subheading">
               Optimize inventory levels, distribution networks, and logistics
               operations to reduce costs and improve service levels.
             </p>
             <p className="learnmore">
-              <a href="OptiFlux//Supply-Chain-Optimization" className="learnmorelink">
+              <a
+                href="OptiFlux/Supply-Chain-Optimization"
+                className="learnmorelink"
+              >
                 Learn More
               </a>
             </p>
@@ -58,12 +62,15 @@ const Home = ({ onContactClick }) => {
                 <i className="fas fa-clipboard-check"></i>
               </div>
             </div>
-            <h3 className="fe-heading">Resource Allocation</h3>
+            <h3 className="fe-heading">
+              Resource <br /> Allocation
+            </h3>
             <br />
             <p className="fe-subheading">
               Maximize efficiency by optimally allocating resources across
               projects, departments, and time periods.
             </p>
+            <br />
             <p className="learnmore">
               <a href="OptiFlux/Resource-Allocation" className="learnmorelink">
                 Learn More
@@ -76,7 +83,9 @@ const Home = ({ onContactClick }) => {
                 <i className="fas fa-briefcase-medical"></i>
               </div>
             </div>
-            <h3 className="fe-heading">Production Planning</h3>
+            <h3 className="fe-heading">
+              Production <br /> Planning
+            </h3>
             <br />
             <p className="fe-subheading">
               Optimize production schedules, manage capacity, and balance
@@ -120,6 +129,7 @@ const Home = ({ onContactClick }) => {
               Design efficient transportation and distribution networks to
               minimize costs and improve service quality.
             </p>
+            <br />
             <p className="learnmore">
               <a href="OptiFlux/Network-Optimization" className="learnmorelink">
                 Learn More
@@ -138,6 +148,7 @@ const Home = ({ onContactClick }) => {
               Tailored optimization solutions designed to address your unique
               business challenges and objectives.
             </p>
+            <br />
             <p className="learnmore">
               <a href="#" className="learnmorelink">
                 Learn More
@@ -146,94 +157,95 @@ const Home = ({ onContactClick }) => {
           </div>
         </div>
       </div>
+      <div className="industries-section">
+        <div className="sectiontext" id="industries">
+          <div className="industries">
+            <h2 className="heading">Industries We Serve</h2>
+            <p className="subheading">
+              Our optimization solutions are tailored to address the unique
+              challenges and opportunities across various industries.
+            </p>
+            <div className="fe-container2">
+              <div className="fe-up">
+                <div className="fe-box2">
+                  <div class="box-image">
+                    <span>Transportation Image</span>
+                  </div>
+                  <br />
 
-      <div className="sectiontext" id="industries">
-        <div className="industries">
-          <h2 className="heading">Industries We Serve</h2>
-          <p className="subheading">
-            Our optimization solutions are tailored to address the unique
-            challenges and opportunities across various industries.
-          </p>
-          <div className="fe-container2">
-            <div className="fe-up">
-              <div className="fe-box2">
-                <div class="box-image">
-                  <span>Transportation Image</span>
+                  <h3 className="fe-heading">Transportation </h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Optimize routing, fleet management, and network design to
+                    reduce costs and improve service levels.
+                  </p>
+                  <p className="learnmore">
+                    <a href="#" className="learnmorelink">
+                      Learn More
+                    </a>
+                  </p>
                 </div>
-                <br />
+                <div className="fe-box2">
+                  <div class="box-image">
+                    <span>Manufacturing Image</span>
+                  </div>
+                  <br />
+                  <h3 className="fe-heading">Manufacturing</h3>
+                  <br />
 
-                <h3 className="fe-heading">Transportation & Logistics</h3>
-                <br />
-                <p className="fe-subheading">
-                  Optimize routing, fleet management, and network design to
-                  reduce costs and improve service levels.
-                </p>
-                <p className="learnmore">
-                  <a href="#" className="learnmorelink">
-                    Learn More
-                  </a>
-                </p>
-              </div>
-              <div className="fe-box2">
-                <div class="box-image">
-                  <span>Manufacturing Image</span>
+                  <p className="fe-subheading">
+                    Improve production planning, inventory management, and
+                    supply chain efficiency.
+                  </p>
+                  <br />
+                  <p className="learnmore">
+                    <a href="#" className="learnmorelink">
+                      Learn More
+                    </a>
+                  </p>
                 </div>
-                <br />
-                <h3 className="fe-heading">Manufacturing</h3>
-                <br />
-                <br />
-                <p className="fe-subheading">
-                  Improve production planning, inventory management, and supply
-                  chain efficiency.
-                </p>
-                <br />
-                <p className="learnmore">
-                  <a href="#" className="learnmorelink">
-                    Learn More
-                  </a>
-                </p>
-              </div>
-              <div className="fe-box2">
-                <div class="box-image">
-                  <span>Healthcare Image</span>
+                <div className="fe-box2">
+                  <div class="box-image">
+                    <span>Healthcare Image</span>
+                  </div>
+                  <br />
+                  <h3 className="fe-heading">Healthcare</h3>
+                  <br />
+
+                  <p className="fe-subheading">
+                    Optimize staff scheduling, patient flow, and resource
+                    allocation to enhance patient care.
+                  </p>
+                  <p className="learnmore">
+                    <a href="#" className="learnmorelink">
+                      Learn More
+                    </a>
+                  </p>
                 </div>
-                <br />
-                <h3 className="fe-heading">Healthcare</h3>
-                <br />
-                <br />
-                <p className="fe-subheading">
-                  Optimize staff scheduling, patient flow, and resource
-                  allocation to enhance patient care.
-                </p>
-                <p className="learnmore">
-                  <a href="#" className="learnmorelink">
-                    Learn More
-                  </a>
-                </p>
-              </div>
-              <div className="fe-box2">
-                <div class="box-image">
-                  <span>Retail Image</span>
+                <div className="fe-box2">
+                  <div class="box-image">
+                    <span>Retail Image</span>
+                  </div>
+                  <br />
+                  <h3 className="fe-heading">Retail</h3>
+                  <br />
+
+                  <p className="fe-subheading">
+                    Enhance inventory management, pricing strategies,demand
+                    forecasting for improved profitability.
+                  </p>
+                  <p className="learnmore">
+                    <a href="#" className="learnmorelink">
+                      Learn More
+                    </a>
+                  </p>
                 </div>
-                <br />
-                <h3 className="fe-heading">Retail</h3>
-                <br />
-                <br />
-                <p className="fe-subheading">
-                  Enhance inventory management, pricing strategies, and demand
-                  forecasting for improved profitability.
-                </p>
-                <p className="learnmore">
-                  <a href="#" className="learnmorelink">
-                    Learn More
-                  </a>
-                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
+      <br />
       <div className="sectiontext">
         <h2 className="heading">Why Choose OptiFlux</h2>
         <p className="subheading">
@@ -253,7 +265,10 @@ const Home = ({ onContactClick }) => {
             </p>
           </div>
           <div className="fe-box">
-            <h3 className="fe-heading3">Focused Specialization</h3>
+            <h3 className="fe-heading3">
+              Focused <br />
+              Specialization
+            </h3>
             <br />
             {/* <br /> */}
             <p className="fe-subheading">
@@ -293,7 +308,7 @@ const Home = ({ onContactClick }) => {
             </p>
           </div>
           <div className="fe-box">
-            <h3 className="fe-heading3">End-to-End Implementation</h3>
+            <h3 className="fe-heading3">Complete Integration</h3>
             <br />
             <p className="fe-subheading">
               We don't just provide theoretical solutions—we partner with you
@@ -303,8 +318,7 @@ const Home = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-
-      <div className="About" id="about">
+      {/* <div className="About" id="about">
         <div className="aboutleft">Image</div>
         <div className="aboutright">
           <p className="heading">About OptiFlux</p>
@@ -320,18 +334,20 @@ const Home = ({ onContactClick }) => {
             clients.
           </p>
         </div>
-      </div>
-
+      </div> */}
       <div className="lastsection">
         <p className="headinglast">Ready to Optimize Your Business?</p>
-        <p className="subheading">
+        <p className="subheadinglast">
           Let's discuss how our advanced optimization solutions can transform
           your business challenges into competitive advantages.
         </p>
+        <br />
         <button className="btn3" onClick={onContactClick}>
           Schedule a Consultation
         </button>
       </div>
+      <br />
+      <br />
     </div>
   );
 };

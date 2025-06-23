@@ -8,8 +8,9 @@ const Footer = ({ onContactClick }) => {
           <h1 className="f-heading">OptiFlux </h1>
           <br />
           <p className="f-para">
-            At OptiFlux, we are passionate about helping businesses make better
-            decisions through advanced operations research and optimization
+            At OptiFlux, we are passionate about helping <br /> businesses make better
+            decisions through <br />
+            advanced operations  research and optimization
             techniques.
           </p>
         </div>

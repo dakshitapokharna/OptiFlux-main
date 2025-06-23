@@ -1,5 +1,6 @@
 * {
   margin: 0;
-   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
- 
+  font-family: "Helvetica Neue";
+  /* background-color: #012a4a; */
+  box-sizing: border-box;
 }

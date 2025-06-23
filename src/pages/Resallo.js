@@ -22,6 +22,7 @@ const Resallo = ({ onContactClick }) => {
         <div className="aboutleft">Resource Allocation Image</div>
         <div className="aboutright">
           <p className="heading"> Strategic Resource Allocation Solutions</p>
+          <br />
           <p className="subheadingabout">
             In today's competitive business environment, efficiently allocating
             limited resources is crucial for maximizing productivity and
@@ -41,107 +42,110 @@ const Resallo = ({ onContactClick }) => {
           </p>
         </div>
       </div>
+      <div className="industries-section">
+        <div className="sectiontext" id="industries">
+          <div className="industries">
+            <h2 className="heading">
+              Benefits of Optimized Resource Allocation
+            </h2>
+            <p className="subheading">
+              See how our resource allocation solutions can transform your
+              organization
+            </p>
 
-      <div className="sectiontext" id="industries">
-        <div className="industries">
-          <h2 className="heading">Benefits of Optimized Resource Allocation</h2>
-          <p className="subheading">
-            See how our resource allocation solutions can transform your
-            organization
-          </p>
-
-          <div className="fe-container2">
-            <div className="fe-up">
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="fa-circle-exclamation">
-                      <FontAwesomeIcon icon={faCircleExclamation} />
-                    </i>
+            <div className="fe-container2">
+              <div className="fe-up">
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="fa-circle-exclamation">
+                        <FontAwesomeIcon icon={faCircleExclamation} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Maximized ROI</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Allocate resources to activities that generate the highest
+                    return, ensuring every dollar, hour, and asset is used
+                    effectively.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Maximized ROI</h3>
-                <br />
-                <p className="fe-subheading">
-                  Allocate resources to activities that generate the highest
-                  return, ensuring every dollar, hour, and asset is used
-                  effectively.
-                </p>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="fas fa-align-right"></i>
+                    </div>
+                  </div>
+                  <h3 className="fe-heading">Reduced Waste</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Eliminate inefficiencies and unused capacity by ensuring
+                    resources are allocated where they're most needed
+                  </p>
+                </div>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="fa-regular faTrash">
+                        <FontAwesomeIcon icon={faTrash} />
+                      </i>
+                    </div>
+                  </div>
+                  <h3 className="fe-heading">Balanced Workloads</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Distribute work evenly across teams and departments,
+                    preventing bottlenecks and resource overutilization.
+                  </p>
+                </div>
               </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="fas fa-align-right"></i>
+              <div className="fe-up">
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faGaugeSimple">
+                        {" "}
+                        <FontAwesomeIcon icon={faGaugeSimple} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Strategic Alignment</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Ensure resource allocation decisions support your
+                    organization's strategic objectives and priorities.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Reduced Waste</h3>
-                <br />
-                <p className="fe-subheading">
-                  Eliminate inefficiencies and unused capacity by ensuring
-                  resources are allocated where they're most needed
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="fa-regular faTrash">
-                      <FontAwesomeIcon icon={faTrash} />
-                    </i>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faNewspaper">
+                        <FontAwesomeIcon icon={faNewspaper} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Data-Driven Decisions</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Replace gut feelings and politics with analytics-based
+                    resource allocation decisions that maximize organizational
+                    performance.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Balanced Workloads</h3>
-                <br />
-                <p className="fe-subheading">
-                  Distribute work evenly across teams and departments,
-                  preventing bottlenecks and resource overutilization.
-                </p>
-              </div>
-            </div>
-            <div className="fe-up">
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faGaugeSimple">
-                      {" "}
-                      <FontAwesomeIcon icon={faGaugeSimple} />
-                    </i>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="fas fa-briefcase-medical"></i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Improved Adaptability</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Quickly adjust resource allocations in response to changing
+                    conditions, opportunities, and constraints.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Strategic Alignment</h3>
-                <br />
-                <p className="fe-subheading">
-                  Ensure resource allocation decisions support your
-                  organization's strategic objectives and priorities.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faNewspaper">
-                      <FontAwesomeIcon icon={faNewspaper} />
-                    </i>
-                  </div>
-                </div>
-                <h3 className="fe-heading">Data-Driven Decisions</h3>
-                <br />
-                <p className="fe-subheading">
-                  Replace gut feelings and politics with analytics-based
-                  resource allocation decisions that maximize organizational
-                  performance.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="fas fa-briefcase-medical"></i>
-                  </div>
-                </div>
-                <h3 className="fe-heading">Improved Adaptability</h3>
-                <br />
-                <p className="fe-subheading">
-                  Quickly adjust resource allocations in response to changing
-                  conditions, opportunities, and constraints.
-                </p>
               </div>
             </div>
           </div>
@@ -217,107 +221,114 @@ const Resallo = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <div className="sectiontext" id="industries">
-        <div className="industries">
-          <h2 className="heading">Technologies & Methodologies</h2>
-          <p className="subheading">
-            Advanced tools and techniques powering our resource allocation
-            solutions
-          </p>
-          <div className="fe-container2">
-            <div className="fe-up">
-              <div className="fe-box2">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faWaveSquare">
-                      <FontAwesomeIcon icon={faWaveSquare} />
-                    </i>
+      <div className= "industries-section">
+        <div className="sectiontext" id="industries">
+          <div className="industries">
+            <h2 className="heading">Technologies & Methodologies</h2>
+            <p className="subheading">
+              Advanced tools and techniques powering our resource allocation
+              solutions
+            </p>
+            <div className="fe-container2">
+              <div className="fe-up">
+                <div className="fe-box2">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faWaveSquare">
+                        <FontAwesomeIcon icon={faWaveSquare} />
+                      </i>
+                    </div>
                   </div>
-                </div>
-                <br />
+                  <br />
 
-                <h3 className="fe-heading">Linear Programming</h3>
-                <br />
-                <p className="fe-subheading">
-                  Efficiently solves resource allocation problems with linear
-                  objective functions and constraints, finding the optimal
-                  distribution of resources to maximize returns.
-                </p>
-              </div>
-              <div className="fe-box2">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faChartSimple">
-                      <FontAwesomeIcon icon={faChartSimple} />
-                    </i>
+                  <h3 className="fe-heading">Linear <br /> Programming</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Efficiently solves resource allocation problems with linear
+                    objective functions and constraints, finding the optimal
+                    distribution of resources to maximize returns.
+                  </p>
+                </div>
+                <div className="fe-box2">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faChartSimple">
+                        <FontAwesomeIcon icon={faChartSimple} />
+                      </i>
+                    </div>
                   </div>
-                </div>
-                <br />
-                <h3 className="fe-heading">Stochastic Optimization</h3>
-                <br />
+                  <br />
+                  <h3 className="fe-heading">Stochastic Optimization</h3>
+                  <br />
 
-                <p className="fe-subheading">
-                  Accounts for uncertainties in resource allocation by
-                  incorporating probabilistic models, ensuring robust solutions
-                  even under variable conditions.
-                </p>
-                <br />
-              </div>
-              <div className="fe-box2">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faCube">
-                      <FontAwesomeIcon icon={faCube} />
-                    </i>
+                  <p className="fe-subheading">
+                    Accounts for uncertainties in resource allocation by
+                    incorporating probabilistic models, ensuring robust
+                    solutions even under variable conditions.
+                  </p>
+                  <br />
+                </div>
+                <div className="fe-box2">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faCube">
+                        <FontAwesomeIcon icon={faCube} />
+                      </i>
+                    </div>
                   </div>
-                </div>
-                <br />
-                <h3 className="fe-heading">Multi-Objective Optimization</h3>
+                  <br />
+                  <h3 className="fe-heading">Multi-Objective Optimization</h3>
 
-                <br />
-                <p className="fe-subheading">
-                  Balances multiple, sometimes competing objectives in resource
-                  allocation decisions, finding optimal trade-offs between
-                  different performance metrics.
-                </p>
-              </div>
-              <div className="fe-box2">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faGlobe">
-                      <FontAwesomeIcon icon={faGlobe} />
-                    </i>
+                  <br />
+                  <p className="fe-subheading">
+                    Balances multiple, sometimes competing objectives in
+                    resource allocation decisions, finding optimal trade-offs
+                    between different performance metrics.
+                  </p>
+                </div>
+                <div className="fe-box2">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faGlobe">
+                        <FontAwesomeIcon icon={faGlobe} />
+                      </i>
+                    </div>
                   </div>
-                </div>
-                <br />
-                <h3 className="fe-heading">
-                  Advanced <br />
-                  Analytics
-                </h3>
-                <br />
+                  <br />
+                  <h3 className="fe-heading">
+                    Advanced <br />
+                    Analytics
+                  </h3>
+                  <br />
 
-                <p className="fe-subheading">
-                  Leverages data mining, statistical analysis, and machine
-                  learning techniques to identify patterns and extract insights
-                  that inform resource allocation decisions.
-                </p>
+                  <p className="fe-subheading">
+                    Leverages data mining, statistical analysis, and machine
+                    learning techniques to identify patterns and extract
+                    insights that inform resource allocation decisions.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="sco-up">
-        <p className="sco-up-text1">
+      <br />
+      <div className="lastsection">
+        <p className="headinglast">
           Ready to Optimize Your Resource Allocation?
         </p>
-        <p className="sco-up-text2">
+        <p className="subheadinglast">
           Contact us today to schedule a consultation and discover how our
           resource allocation solutions can transform your operations.
         </p>
-        <button className="home-btn2" onClick={onContactClick}>Get Started</button>
+        <br />
+        <button className="btn4" onClick={onContactClick}>
+          Get Started
+        </button>
       </div>
-      <div className="sectiontext" id="services">
+      <br />
+      <br />
+      {/* <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>
         <p className="subheading">
           Explore our other optimization solutions that complement resource
@@ -368,7 +379,7 @@ const Resallo = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <br />
+      <br /> */}
     </div>
   );
 };

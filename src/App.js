@@ -10,7 +10,7 @@ import ContactForm from "./components/layout/ContactForm";
 import Worksched from "./pages/Worksched";
 import Netopti from "./pages/Netopti";
 import { Routes, Route } from "react-router-dom";
-import TeamSection from "./pages/TeamSection";
+import About from "./pages/About";
 function App() {
   const [showContact, setShowContact] = useState(false);
 
@@ -31,8 +31,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home onContactClick={openContact} />} />
           <Route
-            path="/About"
-            element={<TeamSection onContactClick={openContact} />}
+            path="/about"
+            element={< About onContactClick={openContact} />}
           />
           <Route path="/OptiFlux/Supply-Chain-Optimization" element={<SCO onContactClick={openContact} />} />
           <Route

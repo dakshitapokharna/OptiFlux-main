@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+
+
+.cards-wrapper {
+  width:80%;
+  height:400px;
+  overflow: hidden;
+ margin-top: 100px;
+  position: relative;
+ 
+left: 10%;
+}
+
+.whychoose{
+ 
+    background-image: linear-gradient(to bottom, rgba(207, 211, 224, 1), rgba(104, 112, 135, 1)) !important;
+}
+.cards {
+  position:absolute;
+  top:15px;
+gap: 1.2rem;
+  display:flex;
+  flex-direction:row;
+  width:1300px;
+  height: auto;
+  justify-content:space-between;
+}
+
+.card {
+  width:220px;
+  min-width: 300px;
+  height:auto;
+  border-radius:14px;
+  border:none;
+ letter-spacing:0.5px;
+  display:inline;
+  cursor:pointer;
+  box-sizing:border-box;
+  color:#000;
+}
+
+.card h2 {
+  font-size:1.2rem;
+  color: #276ef1;
+  font-weight:bold;
+  margin-bottom: 10rem;
+}
+
+.card h4 {
+  text-transform:uppercase;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.icon svg {
+  overflow:visible;
+  stroke-width:1.25em;
+  width:3em;
+}
+
+.cards-wrapper::after {
+  content:'';
+  display:block;
+  position:absolute;
+  top:0;
+  width:100%;
+  max-width:1200px;
+  height:100%;
+  pointer-events:none;
+}
+
+.arrow-btn {
+  width:40px;
+  height:40px;
+  background:#fff;
+  border-radius:50%;
+  border:none;
+  box-shadow: 0 6px 8px #00000030;
+  position:absolute;
+  top:40%;
+  left:20px;
+  transform:translateY(-50%);
+  z-index:1000;
+  cursor:pointer;
+}
+
+.arrow-btn-next {
+  left:auto;
+  right:20px;
+}
+
+.arrow-btn svg {
+  fill:#333;
+  position:absolute;
+  height:80%;  
+  left:50%;
+  top:50%;
+  transform:translate(-60%,-50%);
+}
+
+.arrow-btn-next svg {
+  transform:translate(-40%,-50%);
+}

@@ -47,16 +47,12 @@ const Navbar = ({ onContactClick, onNavClick }) => {
           >
             Industries
           </button>
-          <button
-            className="nav-link"
-            onClick={() => handleNav("about")}
-            type="button"
-          >
-            About Us
-          </button>
-          <button className="nav-link">
-            <a href="/about" className="nav-link">About</a>{" "}
-          </button>
+        
+            <a href="/about" className="nav-link">
+              About Us
+            </a>
+          
+
           <button className="contact" onClick={onContactClick}>
             Contact Us
           </button>

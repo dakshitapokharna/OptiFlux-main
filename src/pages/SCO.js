@@ -19,6 +19,7 @@ const SCO = ({ onContactClick }) => {
         <div className="aboutleft">Supply Chain Optimisation Image</div>
         <div className="aboutright">
           <p className="heading">Optimize Your Entire Supply Chain</p>
+          <br />
           <p className="subheadingabout">
             In today's complex and rapidly changing business environment, an
             optimized supply chain is essential for maintaining competitiveness
@@ -39,7 +40,7 @@ const SCO = ({ onContactClick }) => {
           </p>
         </div>
       </div>
-
+      <div className="industries-section">
       <div className="sectiontext" id="industries">
         <div className="industries">
           <h2 className="heading">Benefits of Supply Chain Optimization</h2>
@@ -146,6 +147,10 @@ const SCO = ({ onContactClick }) => {
           </div>
         </div>
       </div>
+      </div>
+      <br />
+      <br /><br /> <br />
+      <div className="industries-section">
       <div className="sectiontext" id="industries">
         <div className="industries">
           <h2 className="heading">Supply Chain Optimization Success Stories</h2>
@@ -189,6 +194,7 @@ const SCO = ({ onContactClick }) => {
                   product availability.
                 </p>
                 <br />
+                <br />
                 <p className="learnmore">
                   <a href="#" className="learnmorelink">
                     Read case study
@@ -219,15 +225,19 @@ const SCO = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <div className="sco-up">
-        <p className="sco-up-text1">Ready to Optimize Your Supply Chain?</p>
-        <p className="sco-up-text2">
+      </div>
+      <br /><br />
+      <div className="lastsection">
+        <p className="headinglast">Ready to Optimize Your Supply Chain?</p>
+        <p className="subheadinglast">
           Contact us today to schedule a consultation and discover how our
           supply chain optimization solutions can transform your operations.
         </p>
-        <button className="home-btn2" onClick={onContactClick}>Get Started</button>
+        <br />
+        <button className="btn4" onClick={onContactClick}>Get Started</button>
       </div>
-      <div className="sectiontext" id="services">
+      <br /><br />
+      {/* <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>
         <p className="subheading">
           Explore our other optimization solutions that complement supply chain
@@ -278,7 +288,7 @@ const SCO = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <br />
+      <br /> */}
     </div>
   );
 };
