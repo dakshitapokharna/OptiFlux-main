@@ -16,9 +16,9 @@ const Home = ({ onContactClick }) => {
           solutions.
         </p>
         <div className="home-buttons">
-            <button className="home-btn2" onClick={() => navigate("/contact")}>
-              Schedule a Consultation
-            </button>
+          <button className="home-btn2" onClick={() => navigate("/contact")}>
+            Schedule a Consultation
+          </button>
         </div>
       </div>
       <br />
@@ -44,7 +44,9 @@ const Home = ({ onContactClick }) => {
                 <i className="fas fa-align-right"></i>
               </div>
             </div>
-            <h3 className="fe-heading">Supply Chain <br /> Optimization</h3>
+            <h3 className="fe-heading">
+              Supply Chain <br /> Optimization
+            </h3>
             <br />
             <p className="fe-subheading">
               Optimize inventory levels, distribution networks, and logistics
@@ -73,7 +75,7 @@ const Home = ({ onContactClick }) => {
               Maximize efficiency by optimally allocating resources across
               projects, departments, and time periods.
             </p>
-            <br />
+
             <p className="learnmore">
               <a href="OptiFlux/Resource-Allocation" className="learnmorelink">
                 Learn More
@@ -172,7 +174,11 @@ const Home = ({ onContactClick }) => {
               <div className="fe-up">
                 <div className="fe-box2">
                   <div className="box-image">
-                    <img src="/transportation.jpg" alt="Transportation" className="industry-img" />
+                    <img
+                      src="/transportation.jpg"
+                      alt="Transportation"
+                      className="industry-img"
+                    />
                   </div>
                   <br />
 
@@ -182,6 +188,7 @@ const Home = ({ onContactClick }) => {
                     Optimize routing, fleet management, and network design to
                     reduce costs and improve service levels.
                   </p>
+                  <br />
                   <p className="learnmore">
                     <a href="#" className="learnmorelink">
                       Learn More
@@ -190,7 +197,11 @@ const Home = ({ onContactClick }) => {
                 </div>
                 <div className="fe-box2">
                   <div className="box-image">
-                    <img src="/manufacturing.jpg" alt="Manufacturing" className="industry-img" />
+                    <img
+                      src="/manufacturing.jpg"
+                      alt="Manufacturing"
+                      className="industry-img"
+                    />
                   </div>
                   <br />
                   <h3 className="fe-heading">Manufacturing</h3>
@@ -209,7 +220,11 @@ const Home = ({ onContactClick }) => {
                 </div>
                 <div className="fe-box2">
                   <div className="box-image">
-                    <img src="/healthcare.jpg" alt="Healthcare" className="industry-img" />
+                    <img
+                      src="/healthcare.jpg"
+                      alt="Healthcare"
+                      className="industry-img"
+                    />
                   </div>
                   <br />
                   <h3 className="fe-heading">Healthcare</h3>
@@ -219,6 +234,7 @@ const Home = ({ onContactClick }) => {
                     Optimize staff scheduling, patient flow, and resource
                     allocation to enhance patient care.
                   </p>
+                  <br />
                   <p className="learnmore">
                     <a href="#" className="learnmorelink">
                       Learn More
@@ -227,7 +243,11 @@ const Home = ({ onContactClick }) => {
                 </div>
                 <div className="fe-box2">
                   <div className="box-image">
-                    <img src="/retail.jpg" alt="Retail" className="industry-img" />
+                    <img
+                      src="/retail.jpg"
+                      alt="Retail"
+                      className="industry-img"
+                    />
                   </div>
                   <br />
                   <h3 className="fe-heading">Retail</h3>
@@ -281,7 +301,9 @@ const Home = ({ onContactClick }) => {
             </p>
           </div>
           <div className="fe-box">
-            <h3 className="fe-heading3">Cutting-Edge Technology</h3>
+            <h3 className="fe-heading3">
+              Cutting-Edge <br /> Technology
+            </h3>
             <br />
             {/* <br /> */}
             <p className="fe-subheading">

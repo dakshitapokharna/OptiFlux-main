@@ -58,7 +58,7 @@ const Worksched = ({ onContactClick }) => {
             workforce management practices.
           </p>
 
-          <div className="fe-container2">
+          <div className="fe-container4">
             <div className="fe-up">
               <div className="fe-box">
                 <div className="col">
@@ -172,7 +172,7 @@ const Worksched = ({ onContactClick }) => {
             satisfaction.
           </p>
 
-          <div className="fe-container2">
+          <div className="fe-container4">
             <div className="fe-up">
               <div className="fe-box">
                 <div className="col">

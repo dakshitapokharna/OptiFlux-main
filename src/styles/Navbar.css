@@ -10,14 +10,13 @@
 }
 .nav-wrapper {
   position: relative;
- 
- background-color: #F2F2F2;
+  background-color: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   padding: 0.5rem 0rem;
   z-index: 1000;
 }
 .navbar {
-  background-color: #F2F2F2;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,8 +73,8 @@ a.nav-link{
   color: black;
 }
 .contact {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #2563eb;
+  color: #ffffff;
   
   width: 130px;
   margin-top: 0rem;
@@ -85,7 +84,7 @@ a.nav-link{
   border: 1px grey;
   font-size: 1rem;
   box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1);
-  transition: background 0.18s, color 0.18s, box-shadow 0.18s, transform 0.18s;
+  transition: background 0.18s, color 0.18s, box-shadow 0.15s, transform 0.18s;
 }
 
 .contact:hover,

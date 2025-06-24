@@ -62,7 +62,7 @@ const Prodplan = ({ onContactClick }) => {
               Leverage advanced mathematical modeling and AI-powered
               optimization to transform your production operations.
             </p>
-            <div className="fe-container2">
+            <div className="fe-container4">
               <div className="fe-up">
                 <div className="fe-box">
                   <div className="col">
@@ -175,7 +175,7 @@ const Prodplan = ({ onContactClick }) => {
             manufacturing efficiency, cost reduction, and customer satisfaction.
           </p>
 
-          <div className="fe-container2">
+          <div className="fe-container4">
             <div className="fe-up">
               <div className="fe-box">
                 <div className="col">

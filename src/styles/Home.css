@@ -1,6 +1,6 @@
 .c-up {
   padding: 2rem 2rem 2rem 2rem;
-  background: #f2f2f2;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   height: auto;
   justify-content: space-between;
   overflow: hidden;
@@ -41,7 +41,7 @@
   width: 200px;
   border-radius: 5px;
   height: 40px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid #1a56db;
   font-size: 1rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -142,7 +142,7 @@ h2 {
 
 .fe-heading3 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: bold;
   color: #1a56db;
 }
 .learnmorelink {
@@ -220,11 +220,11 @@ h2 {
   gap: 2rem;
 }
 .industries-section {
-  background: #f2f2f2;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   padding: 10px;
 }
 .fe-container2 {
-  height: 900px;
+  height: 550px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -234,7 +234,17 @@ h2 {
   overflow: hidden;
   gap: 2rem;
 }
-
+.fe-container4 {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* padding-top: 4vh; */
+  overflow: hidden;
+  gap: 2rem;
+}
 .About {
   display: flex;
   padding: 100px;
@@ -257,7 +267,7 @@ h2 {
 }
 
 .lastsection {
-  background: #f2f2f2;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   padding: 100px 20px 100px 20px;
   display: flex;
   flex-direction: column;

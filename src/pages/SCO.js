@@ -49,7 +49,7 @@ const SCO = ({ onContactClick }) => {
             supply chain operations
           </p>
 
-          <div className="fe-container2">
+          <div className="fe-container4">
             <div className="fe-up">
               <div className="fe-box">
                 <div className="col">
@@ -194,7 +194,7 @@ const SCO = ({ onContactClick }) => {
                   product availability.
                 </p>
                 <br />
-                <br />
+                
                 <p className="learnmore">
                   <a href="#" className="learnmorelink">
                     Read case study

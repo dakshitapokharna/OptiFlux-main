@@ -53,7 +53,7 @@ const Resallo = ({ onContactClick }) => {
               organization
             </p>
 
-            <div className="fe-container2">
+            <div className="fe-container4">
               <div className="fe-up">
                 <div className="fe-box">
                   <div className="col">

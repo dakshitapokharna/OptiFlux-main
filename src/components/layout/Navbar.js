@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "../../styles/Navbar.css";
 import { useNavigate } from "react-router-dom";
 
-
 const Navbar = ({ onContactClick, onNavClick }) => {
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
@@ -49,11 +48,10 @@ const Navbar = ({ onContactClick, onNavClick }) => {
           >
             Industries
           </button>
-        
-            <a href="/about" className="nav-link">
-              About Us
-            </a>
-          
+
+          <a href="/about" className="nav-link">
+            About Us
+          </a>
 
           <button className="contact" onClick={() => navigate("/contact")}>
             Contact Us

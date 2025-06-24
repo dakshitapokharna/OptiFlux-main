@@ -60,7 +60,7 @@ const Prodplan = ({ onContactClick }) => {
             to transform your distribution network.
           </p>
 
-          <div className="fe-container2">
+          <div className="fe-container4">
             <div className="fe-up">
               <div className="fe-box">
                 <div className="col">
@@ -166,6 +166,7 @@ const Prodplan = ({ onContactClick }) => {
         </div>
       </div>
       </div>
+      <br /><br />
       <div className="sectiontext" id="industries">
         <div className="industries">
           <h2 className="heading">Business Benefits</h2>
@@ -175,7 +176,7 @@ const Prodplan = ({ onContactClick }) => {
             satisfaction.
           </p>
 
-          <div className="fe-container2">
+          <div className="fe-container4">
             <div className="fe-up">
               <div className="fe-box">
                 <div className="col">
