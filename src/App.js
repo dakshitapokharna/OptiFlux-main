@@ -11,11 +11,12 @@ import Worksched from "./pages/Worksched";
 import Netopti from "./pages/Netopti";
 import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 function App() {
-  const [showContact, setShowContact] = useState(false);
+  // const [showContact, setShowContact] = useState(false);
 
-  const openContact = () => setShowContact(true);
-  const closeContact = () => setShowContact(false);
+  // const openContact = () => setShowContact(true);
+  // const closeContact = () => setShowContact(false);
 
   const handleNavClick = (sectionId) => {
     const el = document.getElementById(sectionId);
@@ -26,43 +27,34 @@ function App() {
 
   return (
     <>
-      <Navbar onContactClick={openContact} onNavClick={handleNavClick} />
-      <main className="page-content">
-        <Routes>
-          <Route path="/" element={<Home onContactClick={openContact} />} />
-          <Route
-            path="/about"
-            element={< About onContactClick={openContact} />}
-          />
-          <Route path="/OptiFlux/Supply-Chain-Optimization" element={<SCO onContactClick={openContact} />} />
-          <Route
-            path="/OptiFlux/Resource-Allocation"
-            element={<Resallo onContactClick={openContact} />}
-          />
-          <Route
-            path="/OptiFlux/Production-Planning"
-            element={<Prodplan onContactClick={openContact} />}
-          />
-          <Route
-            path="/OptiFlux/Workforce-Scheduling"
-            element={<Worksched onContactClick={openContact} />}
-          />
-          <Route
-            path="/OptiFlux/Network-Optimization"
-            element={<Netopti onContactClick={openContact} />}
-          />
-        </Routes>
-      </main>
-      <Footer onContactClick={openContact} />
-      {showContact && <ContactForm onClose={closeContact} />}
-      <button
+      <Navbar onNavClick={handleNavClick} />
+<main className="page-content">
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/OptiFlux/Supply-Chain-Optimization" element={<SCO />} />
+    <Route path="/OptiFlux/Resource-Allocation" element={<Resallo />} />
+    <Route path="/OptiFlux/Production-Planning" element={<Prodplan />} />
+    <Route path="/OptiFlux/Workforce-Scheduling" element={<Worksched />} />
+    <Route path="/OptiFlux/Network-Optimization" element={<Netopti />} />
+    <Route path="/contact" element={<Contact />} />
+  </Routes>
+</main>
+<Footer />
+      {/* {showContact && <ContactForm onClose={closeContact} />} */}
+
+
+
+
+
+      {/* <button
         className="fab"
         onClick={openContact}
         aria-label="Schedule a Consultation"
       >
         <i className="fas fa-headset"></i>
         <span className="fab-tooltip">Schedule a Consultation</span>
-      </button>
+      </button> */}
     </>
   );
 }

@@ -1,5 +1,8 @@
 import "../styles/Home.css";
+import { useNavigate } from "react-router-dom";
+
 const Home = ({ onContactClick }) => {
+  const navigate = useNavigate();
   return (
     <div className="home">
       <div className="c-up">
@@ -13,9 +16,9 @@ const Home = ({ onContactClick }) => {
           solutions.
         </p>
         <div className="home-buttons">
-          <button className="home-btn2" onClick={onContactClick}>
-            Schedule a Consultation
-          </button>
+            <button className="home-btn2" onClick={() => navigate("/contact")}>
+              Schedule a Consultation
+            </button>
         </div>
       </div>
       <br />
@@ -168,8 +171,8 @@ const Home = ({ onContactClick }) => {
             <div className="fe-container2">
               <div className="fe-up">
                 <div className="fe-box2">
-                  <div class="box-image">
-                    <span>Transportation Image</span>
+                  <div className="box-image">
+                    <img src="/transportation.jpg" alt="Transportation" className="industry-img" />
                   </div>
                   <br />
 
@@ -186,8 +189,8 @@ const Home = ({ onContactClick }) => {
                   </p>
                 </div>
                 <div className="fe-box2">
-                  <div class="box-image">
-                    <span>Manufacturing Image</span>
+                  <div className="box-image">
+                    <img src="/manufacturing.jpg" alt="Manufacturing" className="industry-img" />
                   </div>
                   <br />
                   <h3 className="fe-heading">Manufacturing</h3>
@@ -205,8 +208,8 @@ const Home = ({ onContactClick }) => {
                   </p>
                 </div>
                 <div className="fe-box2">
-                  <div class="box-image">
-                    <span>Healthcare Image</span>
+                  <div className="box-image">
+                    <img src="/healthcare.jpg" alt="Healthcare" className="industry-img" />
                   </div>
                   <br />
                   <h3 className="fe-heading">Healthcare</h3>
@@ -223,8 +226,8 @@ const Home = ({ onContactClick }) => {
                   </p>
                 </div>
                 <div className="fe-box2">
-                  <div class="box-image">
-                    <span>Retail Image</span>
+                  <div className="box-image">
+                    <img src="/retail.jpg" alt="Retail" className="industry-img" />
                   </div>
                   <br />
                   <h3 className="fe-heading">Retail</h3>
