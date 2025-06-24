@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = ({ onContactClick, onNavClick }) => {
   const [open, setOpen] = useState(false);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const toggle = () => setOpen(!open);
 
   const handleNav = (section) => {
@@ -53,7 +53,7 @@ const Navbar = ({ onContactClick, onNavClick }) => {
             About Us
           </a>
 
-          <button className="contact" onClick={() => navigate("/contact")}>
+          <button className="contact" onClick={onContactClick}>
             Contact Us
           </button>
         </div>

@@ -16,7 +16,7 @@ const Home = ({ onContactClick }) => {
           solutions.
         </p>
         <div className="home-buttons">
-          <button className="home-btn2" onClick={() => navigate("/contact")}>
+          <button className="home-btn2" onClick={onContactClick}>
             Schedule a Consultation
           </button>
         </div>
