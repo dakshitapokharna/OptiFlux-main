@@ -121,7 +121,7 @@ const Prodplan = ({ onContactClick }) => {
                     </i>
                   </div>
                 </div>
-                <h3 className="fe-heading">Green Network Design</h3>
+                <h3 className="fe-heading">Green Network <br /> Design</h3>
                 <br />
                 <p className="fe-subheading">
                   Create environmentally sustainable network designs that reduce
@@ -153,7 +153,7 @@ const Prodplan = ({ onContactClick }) => {
                     </i>
                   </div>
                 </div>
-                <h3 className="fe-heading">Network Scenario Analysis</h3>
+                <h3 className="fe-heading">Network Scenario <br /> Analysis</h3>
                 <br />
                 <p className="fe-subheading">
                   Evaluate multiple network configurations under different

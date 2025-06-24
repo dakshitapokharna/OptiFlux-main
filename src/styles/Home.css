@@ -193,6 +193,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   gap: 1.5rem;
+
 }
 
 .fe-container {
@@ -215,7 +216,7 @@ h2 {
   padding: 10px;
 }
 .fe-container2 {
-  height: 670px;
+  height: 900px;
   width: 100%;
   display: flex;
   align-items: center;
