@@ -1,80 +1,148 @@
 import React from "react";
 import { FaBrain, FaUsers, FaLightbulb, FaBriefcase } from "react-icons/fa";
 import "../styles/About.css";
+
 const teamMembers = [
   {
     name: "Shrinath Dakare",
-    title1: "Chief Executive Officer",
-    title2: "B.Tech + M.Tech Industrial Engineering",
-    title3: "IIT Kharagpur",
-    title4: "6+ Years of Experience",
-    image: "/images/alok-patel.jpg",
+    role: "Chief Executive Officer",
+    education: "B.Tech + M.Tech Industrial Engineering",
+    institute: "IIT Kharagpur",
+    experience: "6+ Years of Experience",
+    img: "/images/shrinath.jpg", // Replace with actual image paths
   },
   {
     name: "Vivek Prakash",
-
-    title1: "Chief Operating Officer",
-    title2: "B.Tech Industrial Engineering",
-    title3: "IIT Kharagpur",
-    title4: "6+ Years of Experience",
-    image: "/images/arvind-kumar.jpg",
+    role: "Chief Operating Officer",
+    education: "B.Tech Industrial Engineering",
+    institute: "IIT Kharagpur",
+    experience: "6+ Years of Experience",
+    img: "/images/vivek.jpg",
   },
   {
     name: "Tanuj Deshmukh",
-    title1: "Chief Technology Officer",
-    title2: "M.S. Operations Research",
-    title3: "Georgia Tech",
-    title4: "5+ Years of Experience",
-    image: "/images/arvind-kumar.jpg",
+    role: "Chief Technology Officer",
+    education: "M.S. Operations Research",
+    institute: "Georgia Tech",
+    experience: "5+ Years of Experience",
+    img: "/images/tanuj.jpg",
   },
   {
     name: "Amar Dani",
-    title1: "AI and ML",
-    title2: "(Healthcare, SAAS, HR Tech, Fintech)",
-    title3: "IIT Kharagpur",
-    title4: "17+ Years of Experience",
-    image: "/images/arvind-kumar.jpg",
+    role: "AI and ML",
+    education: "Healthcare, SAAS, HR Tech, Fintech",
+    institute: "IIT Kharagpur",
+    experience: "17+ Years of Experience",
+    img: "/images/amar.jpg",
   },
   {
     name: "Maqsud Ilteja",
-    title1: "Backend Engineer and Architect",
-    title2: "(SAAS, Fintech and Payment)",
-    title3: "NIT Hamirpur",
-    title4: "8+ Years of Experience",
-    image: "/images/arvind-kumar.jpg",
+    role: "Backend Engineer and Architect",
+    education: "SAAS, Fintech and Payment",
+    institute: "NIT Hamirpur",
+    experience: "8+ Years of Experience",
+    img: "/images/maq.jpg",
   },
   {
-    name: "Ashutosh Singh  ",
-    title1: "Backend Engineer and Architect",
-    title2: " (Fintech, SAAS)",
-    title3: "NIT Hamirpur",
-    title4: "8+ Years of Experience",
-    image: "/images/arvind-kumar.jpg",
+    name: "Ashutosh Singh",
+    role: "Backend Engineer and Architect",
+    education: "Fintech, SAAS",
+    institute: "NIT Hamirpur",
+    experience: "8+ Years of Experience",
+    img: "/images/ashutosh.jpg",
   },
-
   {
     name: "Manjunatha M",
-    title1: "Operations Research",
-    title2: "(Airline, Production, Inventory Control)",
-    title3: "UVCE",
-    title4: "8+ Years of Experience",
-    image: "/images/arvind-kumar.jpg",
+    role: "Operations Research",
+    education: "Airline, Production, Inventory Control",
+    institute: "UVCE",
+    experience: "8+ Years of Experience",
+    img: "/images/manjunatha.jpg",
   },
   {
     name: "Mansi Singh",
-    title1: "Economics (Trade & Finance)",
-    title2: "(Policy Analysis, Environment Economics )",
-    title3: "IIFT New Delhi",
-    title4: "2+ Years of Experience",
-    image: "/images/arvind-kumar.jpg",
+    role: "Economics (Trade & Finance)",
+    education: "Policy Analysis, Environment Economics",
+    institute: "IIFT New Delhi",
+    experience: "2+ Years of Experience",
+    img: "/images/mansi.jpg",
   },
-  
 ];
+
+
+  // {
+  //   name: "Shrinath Dakare",
+  //   title1: "Chief Executive Officer",
+  //   title2: "B.Tech + M.Tech Industrial Engineering",
+  //   title3: "IIT Kharagpur",
+  //   title4: "6+ Years of Experience",
+  //   image: "/images/alok-patel.jpg",
+  // },
+  // {
+  //   name: "Vivek Prakash",
+
+  //   title1: "Chief Operating Officer",
+  //   title2: "B.Tech Industrial Engineering",
+  //   title3: "IIT Kharagpur",
+  //   title4: "6+ Years of Experience",
+  //   image: "/images/arvind-kumar.jpg",
+  // },
+  // {
+  //   name: "Tanuj Deshmukh",
+  //   title1: "Chief Technology Officer",
+  //   title2: "M.S. Operations Research",
+  //   title3: "Georgia Tech",
+  //   title4: "5+ Years of Experience",
+  //   image: "/images/arvind-kumar.jpg",
+  // },
+  // {
+  //   name: "Amar Dani",
+  //   title1: "AI and ML",
+  //   title2: "(Healthcare, SAAS, HR Tech, Fintech)",
+  //   title3: "IIT Kharagpur",
+  //   title4: "17+ Years of Experience",
+  //   image: "/images/arvind-kumar.jpg",
+  // },
+  // {
+  //   name: "Maqsud Ilteja",
+  //   title1: "Backend Engineer and Architect",
+  //   title2: "(SAAS, Fintech and Payment)",
+  //   title3: "NIT Hamirpur",
+  //   title4: "8+ Years of Experience",
+  //   image: "/images/arvind-kumar.jpg",
+  // },
+  // {
+  //   name: "Ashutosh Singh  ",
+  //   title1: "Backend Engineer and Architect",
+  //   title2: " (Fintech, SAAS)",
+  //   title3: "NIT Hamirpur",
+  //   title4: "8+ Years of Experience",
+  //   image: "/images/arvind-kumar.jpg",
+  // },
+
+  // {
+  //   name: "Manjunatha M",
+  //   title1: "Operations Research",
+  //   title2: "(Airline, Production, Inventory Control)",
+  //   title3: "UVCE",
+  //   title4: "8+ Years of Experience",
+  //   image: "/images/arvind-kumar.jpg",
+  // },
+  // {
+  //   name: "Mansi Singh",
+  //   title1: "Economics (Trade & Finance)",
+  //   title2: "(Policy Analysis, Environment Economics )",
+  //   title3: "IIFT New Delhi",
+  //   title4: "2+ Years of Experience",
+  //   image: "/images/arvind-kumar.jpg",
+  // },
+  
+
 const About = () => {
   return (
     <div className="aboutpage">
       <div className="about-container">
-        <p className="about-heading">About Us</p>
+        {/* <p className="about-heading">About Us</p>
         <p className="about-subtext">
           <p>
             Transforming <strong> business decisions </strong>through Advanced
@@ -85,37 +153,70 @@ const About = () => {
           through optimization. With strong mathematical foundations and deep
           industry knowledge, we build tailored solutions that deliver real
           impact.
-        </p>
-        <div className="mvv">
-          <div className="mv-container">
-            <div className="mv-grid">
-              <div className="mv-card">
-                <h3 className="mv-title">Mission</h3>
+        </p> */}
+        <div className="sco-up">
+          <p className="sco-up-text1">About Us</p>
+          <p className="sco-up-text2">
+            Transforming <strong> business decisions </strong>through Advanced
+            <strong> Optimization and AI </strong>
+          </p>
+          <p className="sco-up-text2">
+            At OptiFlux, we specialize in solving complex business problems
+            through optimization. With strong mathematical foundations and deep
+            industry knowledge, we build tailored solutions that deliver real
+            impact.
+          </p>
+
+          <div className="mvv">
+            <div className="mv-container">
+              <div className="mv-grid">
+                <div className="mv-card">
+                  <h3 className="mv-title">Mission</h3>
+                  <p className="mv-text">
+                    To empower businesses with decision intelligence that's
+                    mathematically sound, technologically advanced, and
+                    immediately impactful.
+                  </p>
+                </div>
+                <div className="mv-card">
+                  <h3 className="mv-title">Vision</h3>
+                  <p className="mv-text">
+                    To be the intelligence engine behind high-impact decisions
+                    across industries, driven by optimization, AI, and deep
+                    domain expertise.
+                  </p>
+                </div>
+              </div>
+              <div className="mv-card full">
+                <h3 className="mv-title">Values</h3>
                 <p className="mv-text">
-                  To empower businesses with decision intelligence that's
-                  mathematically sound, technologically advanced, and
-                  immediately impactful.
+                  Excellence, innovation, transparency, and measurable results
+                  guide everything we do.
                 </p>
               </div>
-              <div className="mv-card">
-                <h3 className="mv-title">Vision</h3>
-                <p className="mv-text">
-                  To be the intelligence engine behind high-impact decisions
-                  across industries, driven by optimization, AI, and deep domain
-                  expertise.
-                </p>
-              </div>
-            </div>
-            <div className="mv-card full">
-              <h3 className="mv-title">Values</h3>
-              <p className="mv-text">
-                Excellence, innovation, transparency, and measurable results
-                guide everything we do.
-              </p>
             </div>
           </div>
         </div>
-        <div>
+        <div className="team-container">
+          <h2 className="team-heading">Our Team</h2>
+          <div className="team-grid">
+            {teamMembers.map((member, index) => (
+              <div className="team-card" key={index}>
+                <img src={member.img} alt={member.name} className="team-img" />
+                <h3 className="member-name">{member.name}</h3>
+                <p className="member-role">
+                  <i>{member.role}</i>
+                </p>
+                <p className="member-edu">{member.education}</p>
+                <p className="member-inst">
+                  <b>{member.institute}</b>
+                </p>
+                <p className="member-exp">{member.experience}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        {/* <div>
           <br />
           <br />
           <p className="heading">Our Team</p>
@@ -144,6 +245,7 @@ const About = () => {
           </div>
         </div>
         <br /> <br />
+      </div> */}
       </div>
       <section className="careers-section">
         <div className="careers-header">
@@ -176,10 +278,7 @@ const About = () => {
               <div className="edge-card">
                 <FaLightbulb className="edge-icon" />
                 <p>End-to-End Execution</p>
-                <p className="edge-para">
-                  We design, build, and
-                  integrate.
-                </p>
+                <p className="edge-para">We design, build, and integrate.</p>
               </div>
               <div className="edge-card">
                 <FaBriefcase className="edge-icon" />
@@ -200,8 +299,8 @@ const About = () => {
                 <FaBriefcase className="edge-icon" />
                 <p>Math with a Mission</p>
                 <p className="edge-para">
-                  Every objective is tuned for one
-                  thing: quantifiable business impact.
+                  Every objective is tuned for one thing: quantifiable business
+                  impact.
                 </p>
               </div>
             </div>
