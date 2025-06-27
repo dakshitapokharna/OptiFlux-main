@@ -1,0 +1,80 @@
+.graphic-box2 {
+  width: 70%;
+  height: 300px;
+  background: rgb(139, 138, 138);
+  margin-left: 5vw;
+  margin-top: 10vh;
+  border-radius: 12px;
+
+  position: relative;
+}
+.resource-allocation-container {
+  padding: 40px;
+
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.header-section {
+  position: relative;
+  margin-bottom: 40px;
+}
+.description-heading{
+    text-align: center;
+}
+.header-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.header-section p {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+
+.steps-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: white;
+  width: 70%;
+  margin-left: 18%;
+  border-radius: 10px;
+  padding: 20px 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.step-content {
+  flex: 1;
+}
+
+.step-content h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1c1c1c;
+}
+
+.step-content p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.step-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}

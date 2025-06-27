@@ -235,7 +235,7 @@ h2 {
   gap: 2rem;
 }
 .fe-container4 {
-  height: 800px;
+  height: 790px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -245,6 +245,7 @@ h2 {
   overflow: hidden;
   gap: 2rem;
 }
+
 .About {
   display: flex;
   padding: 100px;

@@ -4,6 +4,33 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { faNewspaper } from "@fortawesome/free-regular-svg-icons";
 import { faGaugeSimple } from "@fortawesome/free-solid-svg-icons";
 
+const features = [
+  {
+    icon: "🏭",
+    title: "Network Design and Optimization",
+    desc: "Determine the optimal number, size, and location of facilities such as warehouses, distribution centers, and production plants to minimize costs while meeting service level requirements.",
+  },
+  {
+    icon: "📦",
+    title: "Inventory Optimization",
+    desc: "Develop inventory policies that balance holding costs, ordering costs, and service level goals, accounting for demand variability, lead time uncertainty, and product characteristics.",
+  },
+  {
+    icon: "🚚",
+    title: "Transportation and Optimization",
+    desc: "Create optimal routing and scheduling plans that minimize transportation costs, reduce empty miles, and ensure on-time deliveries, considering vehicle capacities, time windows, and other constraints.",
+  },
+  {
+    icon: "📈",
+    title: "Demand Forecasting",
+    desc: "Develop accurate demand forecasts using advanced statistical methods and machine learning algorithms to improve inventory management and production planning.",
+  },
+  {
+    icon: "⚠️",
+    title: "Supply Chain Risk Analysis",
+    desc: "Identify vulnerabilities in your supply chain and develop strategies to mitigate risks, increase resilience, and ensure business continuity in the face of disruptions.",
+  },
+];
 const SCO = ({ onContactClick }) => {
   return (
     <div>
@@ -14,7 +41,6 @@ const SCO = ({ onContactClick }) => {
           advanced optimization solutions{" "}
         </p>
       </div>
-
       <div className="About" id="about">
         <div className="aboutleft">Supply Chain Optimisation Image</div>
         <div className="aboutright">
@@ -41,192 +67,214 @@ const SCO = ({ onContactClick }) => {
         </div>
       </div>
       <div className="industries-section">
-      <div className="sectiontext" id="industries">
-        <div className="industries">
-          <h2 className="heading">Benefits of Supply Chain Optimization</h2>
-          <p className="subheading">
-            Our optimization solutions deliver tangible results across your
-            supply chain operations
-          </p>
+        <div className="sectiontext" id="industries">
+          <div className="industries">
+            <h2 className="heading">Benefits of Supply Chain Optimization</h2>
+            <p className="subheading">
+              Our optimization solutions deliver tangible results across your
+              supply chain operations
+            </p>
 
-          <div className="fe-container4">
-            <div className="fe-up">
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="fa-circle-exclamation">
-                      <FontAwesomeIcon icon={faCircleExclamation} />
-                    </i>
+            <div className="fe-container4">
+              <div className="fe-up">
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="fa-circle-exclamation">
+                        <FontAwesomeIcon icon={faCircleExclamation} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Reduced Costs</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Minimize transportation, inventory, and production costs
+                    through optimal network design and resource allocation.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Reduced Costs</h3>
-                <br />
-                <p className="fe-subheading">
-                  Minimize transportation, inventory, and production costs
-                  through optimal network design and resource allocation.
-                </p>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="fas fa-align-right"></i>
+                    </div>
+                  </div>
+                  <h3 className="fe-heading">Improved Service Levels</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Enhance customer satisfaction by ensuring on-time deliveries
+                    and product availability while maintaining optimal inventory
+                    levels.
+                  </p>
+                </div>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="fa-regular faTrash">
+                        <FontAwesomeIcon icon={faTrash} />
+                      </i>
+                    </div>
+                  </div>
+                  <h3 className="fe-heading">Increased Visibility</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Gain deeper insights into your supply chain operations,
+                    enabling better decision-making and proactive issue
+                    resolution.
+                  </p>
+                </div>
               </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="fas fa-align-right"></i>
+              <div className="fe-up">
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faGaugeSimple">
+                        {" "}
+                        <FontAwesomeIcon icon={faGaugeSimple} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Enhanced Resilience</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Build a more robust supply chain that can adapt to
+                    disruptions, changing market conditions, and evolving
+                    customer demands.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Improved Service Levels</h3>
-                <br />
-                <p className="fe-subheading">
-                  Enhance customer satisfaction by ensuring on-time deliveries
-                  and product availability while maintaining optimal inventory
-                  levels.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="fa-regular faTrash">
-                      <FontAwesomeIcon icon={faTrash} />
-                    </i>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faNewspaper">
+                        <FontAwesomeIcon icon={faNewspaper} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Data-Driven Decisions</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Replace gut feelings with analytical insights based on
+                    advanced optimization models and algorithms.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Increased Visibility</h3>
-                <br />
-                <p className="fe-subheading">
-                  Gain deeper insights into your supply chain operations,
-                  enabling better decision-making and proactive issue
-                  resolution.
-                </p>
-              </div>
-            </div>
-            <div className="fe-up">
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faGaugeSimple">
-                      {" "}
-                      <FontAwesomeIcon icon={faGaugeSimple} />
-                    </i>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="fas fa-briefcase-medical"></i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Sustainability Improvements</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Reduce environmental impact through efficient routing,
+                    reduced inventory waste, and optimized resource utilization.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Enhanced Resilience</h3>
-                <br />
-                <p className="fe-subheading">
-                  Build a more robust supply chain that can adapt to
-                  disruptions, changing market conditions, and evolving customer
-                  demands.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faNewspaper">
-                      <FontAwesomeIcon icon={faNewspaper} />
-                    </i>
-                  </div>
-                </div>
-                <h3 className="fe-heading">Data-Driven Decisions</h3>
-                <br />
-                <p className="fe-subheading">
-                  Replace gut feelings with analytical insights based on
-                  advanced optimization models and algorithms.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="fas fa-briefcase-medical"></i>
-                  </div>
-                </div>
-                <h3 className="fe-heading">Sustainability Improvements</h3>
-                <br />
-                <p className="fe-subheading">
-                  Reduce environmental impact through efficient routing, reduced
-                  inventory waste, and optimized resource utilization.
-                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div className="supply-container">
+        <div className="left-section">
+          <h1> Supply Chain Optimization Capabilities</h1>
+          <div className="features">
+            {features.map((item, idx) => (
+              <div key={idx} className="feature-box">
+                <div className="icon">{item.icon}</div>
+                <div className="text">
+                  <h3>{item.title}</h3>
+                  <p>{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="right-section">
+           <img src="" alt="sco-image" className="graphic-box" />
+        </div>
+      </div>
+
+      <div className="industries-section">
+        <div className="sectiontext" id="industries">
+          <div className="industries">
+            <h2 className="heading">
+              Supply Chain Optimization Success Stories
+            </h2>
+            <p className="subheading">
+              See how our clients have transformed their supply chains with our
+              optimization solutions
+            </p>
+            <div className="fe-container2">
+              <div className="fe-up">
+                <div className="fe-box2-sco">
+                  <div class="box-image-sco">
+                    <span>Case Study 1 Image</span>
+                  </div>
+                  <br />
+                  <h3 className="fe-heading">WorldTech Manufacturing</h3>
+                  <br />
+                  <br />
+                  <p className="fe-subheading">
+                    Reduced logistics costs by 15% through network redesign and
+                    transportation optimization, while simultaneously improving
+                    on-time delivery performance by 10%.
+                  </p>
+                  <br />
+                  <p className="learnmore">
+                    <a href="#" className="learnmorelink">
+                      Read case study
+                    </a>
+                  </p>
+                </div>
+                <div className="fe-box2-sco">
+                  <div class="box-image-sco">
+                    <span>Case Study 2 Image</span>
+                  </div>
+                  <br />
+                  <h3 className="fe-heading">Retail Chain Transformation</h3>
+                  <br />
+                  <br />
+                  <p className="fe-subheading">
+                    Optimized inventory levels across 200+ retail locations,
+                    reducing inventory holding costs by 20% while maintaining
+                    98% product availability.
+                  </p>
+                  <br />
+
+                  <p className="learnmore">
+                    <a href="#" className="learnmorelink">
+                      Read case study
+                    </a>
+                  </p>
+                </div>
+                <div className="fe-box2-sco">
+                  <div class="box-image-sco">
+                    <span>Case Study 3 Image</span>
+                  </div>
+                  <br />
+                  <h3 className="fe-heading">Pharmaceutical Distribution</h3>
+                  <br />
+                  <br />
+                  <p className="fe-subheading">
+                    Designed a resilient distribution network for a
+                    pharmaceutical company, ensuring critical medication
+                    availability during disruptions while optimizing costs.
+                  </p>
+                  <br />
+                  <p className="learnmore">
+                    <a href="#" className="learnmorelink">
+                      Read case study
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <br />
-      <br /><br /> <br />
-      <div className="industries-section">
-      <div className="sectiontext" id="industries">
-        <div className="industries">
-          <h2 className="heading">Supply Chain Optimization Success Stories</h2>
-          <p className="subheading">
-            See how our clients have transformed their supply chains with our
-            optimization solutions
-          </p>
-          <div className="fe-container2">
-            <div className="fe-up">
-              <div className="fe-box2-sco">
-                <div class="box-image-sco">
-                  <span>Case Study 1 Image</span>
-                </div>
-                <br />
-                <h3 className="fe-heading">WorldTech Manufacturing</h3>
-                <br />
-                <br />
-                <p className="fe-subheading">
-                  Reduced logistics costs by 15% through network redesign and
-                  transportation optimization, while simultaneously improving
-                  on-time delivery performance by 10%.
-                </p>
-                <br />
-                <p className="learnmore">
-                  <a href="#" className="learnmorelink">
-                    Read case study
-                  </a>
-                </p>
-              </div>
-              <div className="fe-box2-sco">
-                <div class="box-image-sco">
-                  <span>Case Study 2 Image</span>
-                </div>
-                <br />
-                <h3 className="fe-heading">Retail Chain Transformation</h3>
-                <br />
-                <br />
-                <p className="fe-subheading">
-                  Optimized inventory levels across 200+ retail locations,
-                  reducing inventory holding costs by 20% while maintaining 98%
-                  product availability.
-                </p>
-                <br />
-                
-                <p className="learnmore">
-                  <a href="#" className="learnmorelink">
-                    Read case study
-                  </a>
-                </p>
-              </div>
-              <div className="fe-box2-sco">
-                <div class="box-image-sco">
-                  <span>Case Study 3 Image</span>
-                </div>
-                <br />
-                <h3 className="fe-heading">Pharmaceutical Distribution</h3>
-                <br />
-                <br />
-                <p className="fe-subheading">
-                  Designed a resilient distribution network for a pharmaceutical
-                  company, ensuring critical medication availability during
-                  disruptions while optimizing costs.
-                </p>
-                <br />
-                <p className="learnmore">
-                  <a href="#" className="learnmorelink">
-                    Read case study
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <br /><br />
+      <br />
       <div className="lastsection">
         <p className="headinglast">Ready to Optimize Your Supply Chain?</p>
         <p className="subheadinglast">
@@ -234,9 +282,12 @@ const SCO = ({ onContactClick }) => {
           supply chain optimization solutions can transform your operations.
         </p>
         <br />
-        <button className="btn4" onClick={onContactClick}>Get Started</button>
+        <button className="btn4" onClick={onContactClick}>
+          Get Started
+        </button>
       </div>
-      <br /><br />
+      <br />
+      <br />
       {/* <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>
         <p className="subheading">

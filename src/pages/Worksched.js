@@ -12,6 +12,34 @@ import { faBoxesPacking } from "@fortawesome/free-solid-svg-icons";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
+const features = [
+  {
+    icon: "🏭",
+    title: "Requirements Analysis",
+    desc: "We analyze your operational requirements, staffing constraints, employee contractual terms, and organizational policies to establish the scheduling parameters.",
+  },
+  {
+    icon: "📦",
+    title: "Data Integration",
+    desc: "We integrate historical demand data, employee availability, skills matrix, and preference information to create a comprehensive data foundation.",
+  },
+  {
+    icon: "🚚",
+    title: "Constraint Modeling",
+    desc: "Our specialists develop mathematical models that capture all operational requirements, regulatory constraints, and quality measures for your scheduling needs.",
+  },
+  {
+    icon: "📈",
+    title: "Solution Implementation",
+    desc: "We implement the optimization algorithms and integrate them with your existing systems for seamless schedule generation and distribution.",
+  },
+  {
+    icon: "📈",
+    title: "Continuous Refinement",
+    desc: "We continuously monitor scheduling performance, gather feedback, and refine the models to adapt to your evolving business needs.",
+  },
+];
+
 const Worksched = ({ onContactClick }) => {
   return (
     <div>
@@ -48,121 +76,145 @@ const Worksched = ({ onContactClick }) => {
         </div>
       </div>
       <div className="industries-section">
-      <div className="sectiontext" id="industries">
-        <div className="industries">
-          <h2 className="heading">
-            Key Features of Our Workforce Scheduling Solutions
-          </h2>
-          <p className="subheading">
-            Leverage our comprehensive scheduling capabilities to transform your
-            workforce management practices.
-          </p>
+        <div className="sectiontext" id="industries">
+          <div className="industries">
+            <h2 className="heading">
+              Key Features of Our Workforce Scheduling Solutions
+            </h2>
+            <p className="subheading">
+              Leverage our comprehensive scheduling capabilities to transform
+              your workforce management practices.
+            </p>
 
-          <div className="fe-container4">
-            <div className="fe-up">
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faCalendarAlt">
-                      <FontAwesomeIcon icon={faCalendarAlt} />
-                    </i>
+            <div className="fe-container4">
+              <div className="fe-up">
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faCalendarAlt">
+                        <FontAwesomeIcon icon={faCalendarAlt} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Workforce Schedular</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Match staffing levels to anticipated demand patterns using
+                    historical data, forecasts, and business metrics to ensure
+                    optimal coverage at all times.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Workforce Schedular</h3>
-                <br />
-                <p className="fe-subheading">
-                  Match staffing levels to anticipated demand patterns using
-                  historical data, forecasts, and business metrics to ensure
-                  optimal coverage at all times.
-                </p>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faListCheck">
+                        <FontAwesomeIcon icon={faListCheck} />
+                      </i>
+                    </div>
+                  </div>
+                  <h3 className="fe-heading">Fair Shift Distribution</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Create equitable schedules that distribute desirable and
+                    less desirable shifts fairly among employees while
+                    respecting seniority and contractual commitments.
+                  </p>
+                </div>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faCubes">
+                        <FontAwesomeIcon icon={faCubes} />
+                      </i>
+                    </div>
+                  </div>
+                  <h3 className="fe-heading">Personalised Assignment</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Incorporate employee preferences for work times, days off,
+                    shift types, and locations while optimizing for operational
+                    requirements.
+                  </p>
+                </div>
               </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faListCheck">
-                      <FontAwesomeIcon icon={faListCheck} />
-                    </i>
+              <div className="fe-up">
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faClipboardList">
+                        <FontAwesomeIcon icon={faClipboardList} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Compliance Management</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Ensure schedules adhere to complex labor regulations, union
+                    agreements, mandatory rest periods, maximum working hours,
+                    and certification requirements.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Fair Shift Distribution</h3>
-                <br />
-                <p className="fe-subheading">
-                  Create equitable schedules that distribute desirable and less
-                  desirable shifts fairly among employees while respecting
-                  seniority and contractual commitments.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faCubes">
-                      <FontAwesomeIcon icon={faCubes} />
-                    </i>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faBalanceScale">
+                        <FontAwesomeIcon icon={faBalanceScale} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Skill-Based Matching</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Assign employees to shifts based on required skills,
+                    certifications, and experience levels to ensure quality
+                    service and regulatory compliance.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Personalised Assignment</h3>
-                <br />
-                <p className="fe-subheading">
-                  Incorporate employee preferences for work times, days off,
-                  shift types, and locations while optimizing for operational
-                  requirements.
-                </p>
-              </div>
-            </div>
-            <div className="fe-up">
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faClipboardList">
-                      <FontAwesomeIcon icon={faClipboardList} />
-                    </i>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faRandom">
+                        <FontAwesomeIcon icon={faRandom} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Real-Time Rescheduling</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Quickly generate optimized schedules in response to
+                    unexpected absences, demand fluctuations, or operational
+                    changes with minimal disruption.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Compliance Management</h3>
-                <br />
-                <p className="fe-subheading">
-                  Ensure schedules adhere to complex labor regulations, union
-                  agreements, mandatory rest periods, maximum working hours, and
-                  certification requirements.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faBalanceScale">
-                      <FontAwesomeIcon icon={faBalanceScale} />
-                    </i>
-                  </div>
-                </div>
-                <h3 className="fe-heading">Skill-Based Matching</h3>
-                <br />
-                <p className="fe-subheading">
-                  Assign employees to shifts based on required skills,
-                  certifications, and experience levels to ensure quality
-                  service and regulatory compliance.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faRandom">
-                      <FontAwesomeIcon icon={faRandom} />
-                    </i>
-                  </div>
-                </div>
-                <h3 className="fe-heading">Real-Time Rescheduling</h3>
-                <br />
-                <p className="fe-subheading">
-                  Quickly generate optimized schedules in response to unexpected
-                  absences, demand fluctuations, or operational changes with
-                  minimal disruption.
-                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="supply-container">
+        <div className="left-section">
+          <h1> Supply Chain Optimization Capabilities</h1>
+          <div className="features">
+            {features.map((item, idx) => (
+              <div key={idx} className="feature-box">
+                <div className="icon">{item.icon}</div>
+                <div className="text">
+                  <h3>{item.title}</h3>
+                  <p>{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="right-section">
+          <img src="" alt="worksched-image" className="graphic-box" />
+        </div>
       </div>
+
+
+<div className="industries-section">
       <div className="sectiontext" id="industries">
         <div className="industries">
           <h2 className="heading">Business Benefits</h2>
@@ -197,7 +249,7 @@ const Worksched = ({ onContactClick }) => {
                     </i>
                   </div>
                 </div>
-                <h3 className="fe-heading">Improved Employee Satisfaction</h3>
+                <h3 className="fe-heading">Employee Satisfaction</h3>
                 <br />
                 <p className="fe-subheading">
                   Increase employee satisfaction by 20-35% through fair
@@ -273,6 +325,9 @@ const Worksched = ({ onContactClick }) => {
           </div>
         </div>
       </div>
+      
+      
+</div>
       <div className="sectiontext" id="industries">
         <h2 className="heading">Workforce Scheduling Success Stories</h2>
         <p className="subheading">
@@ -339,9 +394,12 @@ const Worksched = ({ onContactClick }) => {
           advanced workforce scheduling solutions.
         </p>
         <br />
-        <button className="btn4" onClick={onContactClick}>Get Started</button>
+        <button className="btn4" onClick={onContactClick}>
+          Get Started
+        </button>
       </div>
-      <br /><br />
+      <br />
+      <br />
       {/* <div className="sectiontext" id="services">
         <h2 className="heading">Related Services</h2>
         <p className="subheading">

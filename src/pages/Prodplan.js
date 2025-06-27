@@ -12,6 +12,34 @@ import { faBoxesPacking } from "@fortawesome/free-solid-svg-icons";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
+const features = [
+  {
+    icon: "🏭",
+    title: "Assessment",
+    desc: "We start by thoroughly understanding your production environment, constraints, and objectives through data analysis and stakeholder interviews.",
+  },
+  {
+    icon: "📦",
+    title: "Mathematical Modeling",
+    desc: "Our specialists develop customized mathematical models that capture the complexity of your production processes and constraints.",
+  },
+  {
+    icon: "🚚",
+    title: "Algorithm Development",
+    desc: "We implement advanced optimization algorithms (linear/integer programming, constraint programming, metaheuristics) tailored to your specific production planning challenges.",
+  },
+  {
+    icon: "📈",
+    title: "Integration & Implementation",
+    desc: "We integrate our optimization solutions with your existing systems and processes, ensuring seamless adoption and implementation.",
+  },
+  {
+    icon: "⚠️",
+    title: "Continuous Improvement",
+    desc: "We continuously refine and enhance the optimization models based on feedback and changing business requirements.",
+  },
+];
+
 const Prodplan = ({ onContactClick }) => {
   return (
     <div>
@@ -122,7 +150,7 @@ const Prodplan = ({ onContactClick }) => {
                       </i>
                     </div>
                   </div>
-                  <h3 className="fe-heading">Material Flow Coordinator</h3>
+                  <h3 className="fe-heading"> Flow Coordinator</h3>
                   <br />
                   <p className="fe-subheading">
                     Optimize the timing and quantity of material orders to
@@ -167,107 +195,131 @@ const Prodplan = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <div className="sectiontext" id="industries">
-        <div className="industries">
-          <h2 className="heading">Business Benefits</h2>
-          <p className="subheading">
-            Our production planning solutions deliver measurable improvements in
-            manufacturing efficiency, cost reduction, and customer satisfaction.
-          </p>
+      <div className="supply-container">
+        <div className="left-section">
+          <h1> Our Approach to Production Planning</h1>
+          <div className="features">
+            {features.map((item, idx) => (
+              <div key={idx} className="feature-box">
+                <div className="icon">{item.icon}</div>
+                <div className="text">
+                  <h3>{item.title}</h3>
+                  <p>{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
 
-          <div className="fe-container4">
-            <div className="fe-up">
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faChartLine">
-                      <FontAwesomeIcon icon={faChartLine} />
-                    </i>
+        <div className="right-section">
+          <img src="" alt="prodplan-image" className="graphic-box" />
+        </div>
+      </div>
+      <div className="industries-section">
+        <div className="sectiontext" id="industries">
+          <div className="industries">
+            <h2 className="heading">Business Benefits</h2>
+            <p className="subheading">
+              Our production planning solutions deliver measurable improvements
+              in manufacturing efficiency, cost reduction, and customer
+              satisfaction.
+            </p>
+
+            <div className="fe-container4">
+              <div className="fe-up">
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faChartLine">
+                        <FontAwesomeIcon icon={faChartLine} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Increased Throughput</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Optimize resource utilization and eliminate bottlenecks to
+                    increase production capacity by 15-25%.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Increased Throughput</h3>
-                <br />
-                <p className="fe-subheading">
-                  Optimize resource utilization and eliminate bottlenecks to
-                  increase production capacity by 15-25%.
-                </p>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faMoneyBillWave">
+                        <FontAwesomeIcon icon={faMoneyBillWave} />
+                      </i>
+                    </div>
+                  </div>
+                  <h3 className="fe-heading">Reduced Costs</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Minimize setup times, inventory costs, and overtime expenses
+                    to reduce production costs by 10-20%.
+                  </p>
+                </div>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faTruckFast">
+                        <FontAwesomeIcon icon={faTruckFast} />
+                      </i>
+                    </div>
+                  </div>
+                  <h3 className="fe-heading">Improved Delivery</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Meet customer deadlines consistently with optimized
+                    production schedules, improving on-time delivery rates by up
+                    to 30%.
+                  </p>
+                </div>
               </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faMoneyBillWave">
-                      <FontAwesomeIcon icon={faMoneyBillWave} />
-                    </i>
+              <div className="fe-up">
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faBoxesPacking">
+                        <FontAwesomeIcon icon={faBoxesPacking} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Optimized Inventory</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Reduce inventory levels by 15-30% while maintaining or
+                    improving service levels and responsiveness.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Reduced Costs</h3>
-                <br />
-                <p className="fe-subheading">
-                  Minimize setup times, inventory costs, and overtime expenses
-                  to reduce production costs by 10-20%.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faTruckFast">
-                      <FontAwesomeIcon icon={faTruckFast} />
-                    </i>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faBolt">
+                        <FontAwesomeIcon icon={faBolt} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Enhanced Agility</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Respond quickly to changing demand patterns, supply
+                    disruptions, and other market conditions.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Improved On-Time Delivery</h3>
-                <br />
-                <p className="fe-subheading">
-                  Meet customer deadlines consistently with optimized production
-                  schedules, improving on-time delivery rates by up to 30%.
-                </p>
-              </div>
-            </div>
-            <div className="fe-up">
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faBoxesPacking">
-                      <FontAwesomeIcon icon={faBoxesPacking} />
-                    </i>
+                <div className="fe-box">
+                  <div className="col">
+                    <div className="icon-box">
+                      <i className="faArrowsRotate">
+                        <FontAwesomeIcon icon={faArrowsRotate} />
+                      </i>
+                    </div>
                   </div>
+                  <h3 className="fe-heading">Reduced Lead Times</h3>
+                  <br />
+                  <p className="fe-subheading">
+                    Optimize production sequences and lot sizes to reduce
+                    manufacturing lead times by 20-40%.
+                  </p>
                 </div>
-                <h3 className="fe-heading">Optimized Inventory</h3>
-                <br />
-                <p className="fe-subheading">
-                  Reduce inventory levels by 15-30% while maintaining or
-                  improving service levels and responsiveness.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faBolt">
-                      <FontAwesomeIcon icon={faBolt} />
-                    </i>
-                  </div>
-                </div>
-                <h3 className="fe-heading">Enhanced Agility</h3>
-                <br />
-                <p className="fe-subheading">
-                  Respond quickly to changing demand patterns, supply
-                  disruptions, and other market conditions.
-                </p>
-              </div>
-              <div className="fe-box">
-                <div className="col">
-                  <div className="icon-box">
-                    <i className="faArrowsRotate">
-                      <FontAwesomeIcon icon={faArrowsRotate} />
-                    </i>
-                  </div>
-                </div>
-                <h3 className="fe-heading">Reduced Lead Times</h3>
-                <br />
-                <p className="fe-subheading">
-                  Optimize production sequences and lot sizes to reduce
-                  manufacturing lead times by 20-40%.
-                </p>
               </div>
             </div>
           </div>
@@ -320,6 +372,7 @@ const Prodplan = ({ onContactClick }) => {
                 production sequences while adhering to all regulatory
                 requirements.
               </p>
+              <br />
               <br />
               <p className="learnmore">
                 <a href="#" className="learnmorelink">

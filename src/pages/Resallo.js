@@ -7,6 +7,61 @@ import { faGaugeSimple } from "@fortawesome/free-solid-svg-icons";
 import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
 import { faCube } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+const steps = [
+  {
+    title: "Data Collection & Analysis",
+    description:
+      "We begin by collecting and analyzing data on your available resources, constraints, strategic objectives, and historical performance metrics. This creates a comprehensive foundation for the optimization model.",
+    icon: "📊", // You can replace this with an actual image or icon if needed
+  },
+  {
+    title: "Mathematical Model Development",
+    description:
+      "Our team of operations research experts develops a tailored mathematical model that captures your specific business rules, constraints, and objectives. This model forms the core of the resource allocation solution.",
+    icon: "𝛑", // Use π icon or actual image
+  },
+  {
+    title: "Optimization Algorithm Selection",
+    description:
+      "We select and implement the most appropriate optimization algorithms based on the complexity of your resource allocation problem, ensuring efficient and accurate solutions.",
+    icon: "🧠", // Replace with graph-style image if needed
+  },
+  {
+    title: "Scenario Analysis",
+    description:
+      "Multiple scenarios are generated and analyzed to evaluate the impact of different assumptions, constraints, and objectives on resource allocation outcomes, providing insights into trade-offs and sensitivities.",
+    icon: "🧠", // Replace with graph-style image if needed
+  },
+  {
+    title: "Solution Implementation",
+    description:
+      "We deliver actionable resource allocation recommendations through user-friendly dashboards and reports, along with implementation support to ensure successful adoption within your organization.",
+    icon: "🧠", // Replace with graph-style image if needed
+  },
+  {
+    title: "Continuous Improvement",
+    description:
+      "Our solutions include ongoing monitoring and refinement capabilities, allowing you to adapt resource allocations as conditions change and continuously improve performance over time.",
+    icon: "🧠", // Replace with graph-style image if needed
+  },
+];
+const features = [
+  {
+    icon: "🏭",
+    title: "Workforce Planning",
+    desc: "Allocate staff to projects, departments, or tasks to maximize productivity, minimize costs, and ensure appropriate skill coverage across the organization.",
+  },
+  {
+    icon: "📦",
+    title: "Multi-Period Planning",
+    desc: "Develop resource allocation strategies across multiple time periods that account for changing conditions, evolving priorities, and future uncertainties.",
+  },
+  {
+    icon: "⚠️",
+    title: "Risk-Aware Allocation",
+    desc: "Balance expected returns with risk considerations to develop resource allocation strategies that achieve objectives while maintaining acceptable risk levels.",
+  },
+];
 const Resallo = ({ onContactClick }) => {
   return (
     <div>
@@ -151,6 +206,49 @@ const Resallo = ({ onContactClick }) => {
           </div>
         </div>
       </div>
+      <div className="supply-container">
+        <div className="left-section">
+          <h1> Resource Allocation Capabilities</h1>
+          <div className="features">
+            {features.map((item, idx) => (
+              <div key={idx} className="feature-box">
+                <div className="icon">{item.icon}</div>
+                <div className="text">
+                  <h3>{item.title}</h3>
+                  <p>{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="right-section">
+          <img src="" alt="resallo-image" className="graphic-box2" />
+        </div>
+      </div>
+
+      <div className="resource-allocation-container">
+        <div className="header-section">
+          <h2>How Our Resource Allocation Process Works</h2>
+          <p className="description-heading">
+            A systematic approach to optimizing your resource allocation
+            decisions
+          </p>
+        </div>
+
+        <div className="steps-section">
+          {steps.map((step) => (
+            <div className="step">
+              <div className="step-icon">{step.icon}</div>
+              <div className="step-content">
+                <h3>{step.title}</h3>
+                <p>{step.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
       <div className="sectiontext" id="industries">
         <h2 className="heading">Resource Allocation Success Stories</h2>
         <p className="subheading">
@@ -164,7 +262,9 @@ const Resallo = ({ onContactClick }) => {
                 <span>Case Study 1 Image</span>
               </div>
               <br />
-              <h3 className="fe-heading">Financial Services Firm</h3>
+              <h3 className="fe-heading">
+                Financial Services <br /> Firm
+              </h3>
               <br />
 
               <p className="fe-subheading">
@@ -172,6 +272,7 @@ const Resallo = ({ onContactClick }) => {
                 increasing ROI by 27% while maintaining the same overall
                 marketing budget.
               </p>
+              <br />
               <br />
               <p className="learnmore">
                 <a href="#" className="learnmorelink">
@@ -204,14 +305,16 @@ const Resallo = ({ onContactClick }) => {
                 <span>Case Study 3 Image</span>
               </div>
               <br />
-              <h3 className="fe-heading">TechVision Portfolio</h3>
+              <h3 className="fe-heading">
+                Tech Vision <br /> Portfolio
+              </h3>
               <br />
               <p className="fe-subheading">
                 Created a portfolio optimization model for an IT company that
                 prioritized projects based on strategic alignment, ROI, and
                 resource constraints, resulting in 40% higher portfolio value.
               </p>
-
+              <br />
               <p className="learnmore">
                 <a href="#" className="learnmorelink">
                   Read case study
@@ -221,7 +324,7 @@ const Resallo = ({ onContactClick }) => {
           </div>
         </div>
       </div>
-      <div className= "industries-section">
+      <div className="industries-section">
         <div className="sectiontext" id="industries">
           <div className="industries">
             <h2 className="heading">Technologies & Methodologies</h2>
@@ -241,7 +344,9 @@ const Resallo = ({ onContactClick }) => {
                   </div>
                   <br />
 
-                  <h3 className="fe-heading">Linear <br /> Programming</h3>
+                  <h3 className="fe-heading">
+                    Linear <br /> Programming
+                  </h3>
                   <br />
                   <p className="fe-subheading">
                     Efficiently solves resource allocation problems with linear
