@@ -162,3 +162,42 @@ height: 500px;
   position: relative;
 }
 
+@media (max-width:768px) {
+  
+  .fe-box2-sco{
+    width: 80%;
+    height: 100%;
+  }
+  .fe-container4{
+    width: 100%;
+    
+  }
+
+
+  .fe-up{
+    width: 100%;
+    height: 100%;
+  }
+  .About{
+    flex-direction: column;
+  }
+
+ .aboutleft{
+  display: none;
+ } 
+
+  .supply-container{
+    flex-direction: column-reverse;
+  }
+  .heading-supply{
+    margin-left: 6%;
+  }
+
+}
+
+@media (max-width: 460px) {
+  .fe-container4{
+    width: 100%;
+    height: 100%;
+  }
+}

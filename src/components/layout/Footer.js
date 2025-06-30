@@ -19,22 +19,22 @@ const Footer = ({ onContactClick }) => {
           <ul>
             <h3 className="f-heading2">Services</h3>
             <li className="f-list">
-              <a href="Supply-Chain-Optimization" className="f-links">
+              <a href="OptiFlux/Supply-Chain-Optimization" className="f-links">
                 Supply Chain Optimization
               </a>{" "}
             </li>
             <li className="f-list">
-              <a href="Resource-Allocation" className="f-links">
+              <a href="OptiFlux/Resource-Allocation" className="f-links">
                 Resource Allocation
               </a>{" "}
             </li>
             <li className="f-list">
-              <a href="Production-Planning" className="f-links">
+              <a href="OptiFlux/Production-Planning" className="f-links">
                 Production Planning
               </a>
             </li>
             <li className="f-list">
-              <a href="Workforce-Scheduling" className="f-links">
+              <a href="OptiFlux/Workforce-Scheduling" className="f-links">
                 Workforce Scheduling
               </a>
             </li>

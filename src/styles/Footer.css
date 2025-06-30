@@ -53,7 +53,7 @@ hr {
   padding: 10px 10px;
 }
 .footertext {
-  padding-left: 40vw;
+ margin-left: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -88,6 +88,9 @@ hr {
     overflow: hidden;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
+  }
+  .footertext{
+    margin-left: 5rem ;
   }
 }
 @media (max-width: 640px) {

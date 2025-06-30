@@ -95,11 +95,21 @@ a.nav-link{
   outline: none;
   transform: translateY(-3px) translateY(3px) scale(1.04);
 }
-
+@media (max-width: 468px) {
+  .logo{
+margin-left: 2rem;
+  }
+}
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
   }
+.logo{
+  margin-left: 5rem;
+}
+.contact{
+  margin: 0;
+}
 
   .nav-links {
     position: relative;
@@ -112,19 +122,23 @@ a.nav-link{
     flex-direction: column;
     gap: 0.5rem;
     z-index: 100;
+    margin: 0;
     overflow: hidden;
   }
+  
   .nav-links.open {
     display: flex;
     background-color: #ffffff;
     position: fixed;
     z-index: 10;
     color: black;
+    margin: 0;
   }
   .nav-link {
-    color: rgb(201, 210, 249);
+    color: rgb(0, 0, 0);
     padding: 0.5rem 0;
     font-size: large;
+    
   }
 
   .nav-links a {

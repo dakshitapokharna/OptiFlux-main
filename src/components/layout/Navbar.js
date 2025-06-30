@@ -48,10 +48,14 @@ const Navbar = ({ onContactClick, onNavClick }) => {
           >
             Industries
           </button>
-
-          <a href="/about" className="nav-link">
+          <button className="nav-link" type="button">
+            <a className="nav-link" href="/about">
+              About Us
+            </a>
+          </button>
+          {/* <a href="/about" className="nav-link" id="aboutlink">
             About Us
-          </a>
+          </a> */}
 
           <button className="contact" onClick={onContactClick}>
             Contact Us

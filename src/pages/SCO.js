@@ -176,7 +176,7 @@ const SCO = ({ onContactClick }) => {
       </div>
       <div className="supply-container">
         <div className="left-section">
-          <h1> Supply Chain Optimization Capabilities</h1>
+          <h1 className="heading-supply"> Supply Chain Optimization Capabilities</h1>
           <div className="features">
             {features.map((item, idx) => (
               <div key={idx} className="feature-box">
