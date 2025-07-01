@@ -53,7 +53,18 @@ const Worksched = ({ onContactClick }) => {
       </div>
 
       <div className="About" id="about">
-        <div className="aboutleft">Workforce Scheduling Image</div>
+        <div className="aboutleft">
+          <img
+            src="/worksched.jpg"
+            alt="Workforce Scheduling"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              borderRadius: "12px"
+            }}
+          />
+        </div>
         <div className="aboutright">
           <p className="heading"> Why Workforce Scheduling Matters</p>
           <br />
@@ -209,7 +220,7 @@ const Worksched = ({ onContactClick }) => {
         </div>
 
         <div className="right-section">
-          <img src="" alt="worksched-image" className="graphic-box" />
+          <img src="/worksched1.jpg" alt="worksched-image" className="graphic-box" />
         </div>
       </div>
 

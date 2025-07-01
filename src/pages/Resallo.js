@@ -74,7 +74,18 @@ const Resallo = ({ onContactClick }) => {
       </div>
 
       <div className="About" id="about">
-        <div className="aboutleft">Resource Allocation Image</div>
+        <div className="aboutleft">
+          <img
+            src="/resallo.jpg"
+            alt="Resource Allocation"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              borderRadius: "12px"
+            }}
+          />
+        </div>
         <div className="aboutright">
           <p className="heading"> Strategic Resource Allocation Solutions</p>
           <br />
@@ -223,7 +234,7 @@ const Resallo = ({ onContactClick }) => {
         </div>
 
         <div className="right-section">
-          <img src="" alt="resallo-image" className="graphic-box2" />
+          <img src="/resallo1.jpg" alt="resallo-image" className="graphic-box2" />
         </div>
       </div>
 

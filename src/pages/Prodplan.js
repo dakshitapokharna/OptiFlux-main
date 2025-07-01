@@ -52,7 +52,18 @@ const Prodplan = ({ onContactClick }) => {
         </p>
       </div>
       <div className="About" id="about">
-        <div className="aboutleft">Production Planning Image</div>
+        <div className="aboutleft">
+          <img
+            src="/prodplan.jpg"
+            alt="Production Planning"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              borderRadius: "12px"
+            }}
+          />
+        </div>
         <div className="aboutright">
           <p className="heading"> Why Production Planning Matters</p>
           <br />
@@ -212,7 +223,7 @@ const Prodplan = ({ onContactClick }) => {
         </div>
 
         <div className="right-section">
-          <img src="" alt="prodplan-image" className="graphic-box" />
+          <img src="/prodplan1.jpg" alt="prodplan-image" className="graphic-box" />
         </div>
       </div>
       <div className="industries-section">

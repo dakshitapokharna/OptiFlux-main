@@ -53,7 +53,18 @@ const Prodplan = ({ onContactClick }) => {
       </div>
 
       <div className="About" id="about">
-        <div className="aboutleft"> Network Optimization Image</div>
+        <div className="aboutleft">
+          <img
+            src="/netopti.jpg"
+            alt="Network Optimization"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              borderRadius: "12px"
+            }}
+          />
+        </div>
         <div className="aboutright">
           <p className="heading"> Why Network Optimization Matters</p>
           <p className="subheadingabout">
@@ -218,7 +229,7 @@ const Prodplan = ({ onContactClick }) => {
         </div>
 
         <div className="right-section">
-          <img src="" alt="netopti-image" className="graphic-box" />
+          <img src="/netopti1.jpg" alt="netopti-image" className="graphic-box" />
         </div>
       </div>
       <div className="industries-section">

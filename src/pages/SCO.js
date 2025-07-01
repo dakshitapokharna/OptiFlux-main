@@ -42,7 +42,18 @@ const SCO = ({ onContactClick }) => {
         </p>
       </div>
       <div className="About" id="about">
-        <div className="aboutleft">Supply Chain Optimisation Image</div>
+        <div className="aboutleft">
+          <img
+            src="/sco.jpg"
+            alt="Supply Chain Optimization"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              borderRadius: "12px"
+            }}
+          />
+        </div>
         <div className="aboutright">
           <p className="heading">Optimize Your Entire Supply Chain</p>
           <br />
@@ -191,7 +202,7 @@ const SCO = ({ onContactClick }) => {
         </div>
 
         <div className="right-section">
-           <img src="" alt="sco-image" className="graphic-box" />
+           <img src="/sco1.jpg" alt="sco-image" className="graphic-box" />
         </div>
       </div>
 
