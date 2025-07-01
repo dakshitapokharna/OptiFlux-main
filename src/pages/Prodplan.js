@@ -197,7 +197,7 @@ const Prodplan = ({ onContactClick }) => {
       </div>
       <div className="supply-container">
         <div className="left-section">
-          <h1> Our Approach to Production Planning</h1>
+          <h1 className="heading-supply"> Our Approach to Production Planning</h1>
           <div className="features">
             {features.map((item, idx) => (
               <div key={idx} className="feature-box">

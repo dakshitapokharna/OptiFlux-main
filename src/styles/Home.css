@@ -378,9 +378,13 @@ h2 {
     height: 100%;
   
   }
- 
+ .fe-container4{
+  height: 100%;
+  width: 90%;
+margin-left: 5%;
+ }
   .subheading {
-    margin-left: 10%;
+    margin-left: 6%;
   }
 }
 

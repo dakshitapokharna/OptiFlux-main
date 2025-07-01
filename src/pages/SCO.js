@@ -66,7 +66,7 @@ const SCO = ({ onContactClick }) => {
           </p>
         </div>
       </div>
-      <div className="industries-section">
+      <div className="industries-section1">
         <div className="sectiontext" id="industries">
           <div className="industries">
             <h2 className="heading">Benefits of Supply Chain Optimization</h2>

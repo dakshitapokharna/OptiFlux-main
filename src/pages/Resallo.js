@@ -208,7 +208,7 @@ const Resallo = ({ onContactClick }) => {
       </div>
       <div className="supply-container">
         <div className="left-section">
-          <h1> Resource Allocation Capabilities</h1>
+          <h1 className="heading-supply"> Resource Allocation Capabilities</h1>
           <div className="features">
             {features.map((item, idx) => (
               <div key={idx} className="feature-box">
