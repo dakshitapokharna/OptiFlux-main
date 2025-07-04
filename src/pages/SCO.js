@@ -50,7 +50,7 @@ const SCO = ({ onContactClick }) => {
               width: "100%",
               height: "100%",
               objectFit: "cover",
-              borderRadius: "12px"
+              borderRadius: "12px",
             }}
           />
         </div>
@@ -187,7 +187,10 @@ const SCO = ({ onContactClick }) => {
       </div>
       <div className="supply-container">
         <div className="left-section">
-          <h1 className="heading-supply"> Supply Chain Optimization Capabilities</h1>
+          <h1 className="heading-supply">
+            {" "}
+            Supply Chain Optimization Capabilities
+          </h1>
           <div className="features">
             {features.map((item, idx) => (
               <div key={idx} className="feature-box">
@@ -202,7 +205,7 @@ const SCO = ({ onContactClick }) => {
         </div>
 
         <div className="right-section">
-           <img src="/sco1.jpg" alt="sco-image" className="graphic-box" />
+          <img src="/sco1.jpg" alt="sco-image" className="graphic-box" />
         </div>
       </div>
 

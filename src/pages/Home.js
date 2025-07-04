@@ -45,7 +45,7 @@ const Home = ({ onContactClick }) => {
               </div>
             </div>
             <h3 className="fe-heading">
-              Supply Chain <br /> Optimization
+              Supply Chain Optimization
             </h3>
             <br />
             <p className="fe-subheading">
@@ -68,7 +68,7 @@ const Home = ({ onContactClick }) => {
               </div>
             </div>
             <h3 className="fe-heading">
-              Resource <br /> Allocation
+              Resource Allocation
             </h3>
             <br />
             <p className="fe-subheading">
@@ -89,7 +89,7 @@ const Home = ({ onContactClick }) => {
               </div>
             </div>
             <h3 className="fe-heading">
-              Production <br /> Planning
+              Production Planning
             </h3>
             <br />
             <p className="fe-subheading">
@@ -279,7 +279,7 @@ const Home = ({ onContactClick }) => {
       <div className="fe-container">
         <div className="fe-up">
           <div className="fe-box">
-            <h3 className="fe-heading3">Advanced Mathematical Expertise</h3>
+            <h3 className="fe-heading3">Mathematical Expertise</h3>
             <br />
             <p className="fe-subheading">
               Our team includes PhDs in operations research, applied
@@ -289,7 +289,7 @@ const Home = ({ onContactClick }) => {
           </div>
           <div className="fe-box">
             <h3 className="fe-heading3">
-              Focused <br />
+              Focused 
               Specialization
             </h3>
             <br />
@@ -302,7 +302,7 @@ const Home = ({ onContactClick }) => {
           </div>
           <div className="fe-box">
             <h3 className="fe-heading3">
-              Cutting-Edge <br /> Technology
+              Cutting-Edge  Technology
             </h3>
             <br />
             {/* <br /> */}

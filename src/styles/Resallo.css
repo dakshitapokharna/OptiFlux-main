@@ -8,6 +8,7 @@
 
   position: relative;
 }
+
 .resource-allocation-container {
   padding: 40px;
 
@@ -63,14 +64,14 @@
 
 .step-content h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   color: #1c1c1c;
 }
 
 .step-content p {
   /* margin: 6px 0 0; */
-  font-size: 14px;
+  font-size: 16px;
   color: #555;
 }
 

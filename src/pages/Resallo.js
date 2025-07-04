@@ -296,7 +296,7 @@ const Resallo = ({ onContactClick }) => {
                 <span>Case Study 2 Image</span>
               </div>
               <br />
-              <h3 className="fe-heading">Optimed Health Networks</h3>
+              <h3 className="fe-heading">Optimed Health <br /> Networks</h3>
               <br />
 
               <p className="fe-subheading">
@@ -374,8 +374,8 @@ const Resallo = ({ onContactClick }) => {
                     </div>
                   </div>
                   <br />
-                  <h3 className="fe-heading">Stochastic Optimization</h3>
-                  <br />
+                  <h3 className="fe-heading">Stochastic <br /> Optimization</h3>
+                  <br /> 
 
                   <p className="fe-subheading">
                     Accounts for uncertainties in resource allocation by
@@ -392,8 +392,9 @@ const Resallo = ({ onContactClick }) => {
                       </i>
                     </div>
                   </div>
+              
                   <br />
-                  <h3 className="fe-heading">Multi-Objective Optimization</h3>
+                  <h3 className="fe-heading">Multi-Objective <br /> Optimization</h3>
 
                   <br />
                   <p className="fe-subheading">

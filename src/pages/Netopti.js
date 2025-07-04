@@ -109,7 +109,7 @@ const Prodplan = ({ onContactClick }) => {
                       </i>
                     </div>
                   </div>
-                  <h3 className="fe-heading">Facility Location Optimization</h3>
+                  <h3 className="fe-heading">Facility Location <br /> Optimization</h3>
                   <br />
                   <p className="fe-subheading">
                     Determine the optimal number, size, and locations of
@@ -125,7 +125,7 @@ const Prodplan = ({ onContactClick }) => {
                       </i>
                     </div>
                   </div>
-                  <h3 className="fe-heading">Transportation Network Design</h3>
+                  <h3 className="fe-heading">Transportation Network <br /> Design</h3>
                   <br />
                   <p className="fe-subheading">
                     Design optimal transportation networks with the most
@@ -141,7 +141,7 @@ const Prodplan = ({ onContactClick }) => {
                       </i>
                     </div>
                   </div>
-                  <h3 className="fe-heading">Inventory Network Optimization</h3>
+                  <h3 className="fe-heading">Inventory Network <br /> Optimization</h3>
                   <br />
                   <p className="fe-subheading">
                     Optimize inventory placement, levels, and replenishment
@@ -178,7 +178,7 @@ const Prodplan = ({ onContactClick }) => {
                       </i>
                     </div>
                   </div>
-                  <h3 className="fe-heading">Network Resilience Planning</h3>
+                  <h3 className="fe-heading">Network Resilience <br /> Planning</h3>
                   <br />
                   <p className="fe-subheading">
                     Design resilient networks that can withstand disruptions
@@ -355,7 +355,7 @@ const Prodplan = ({ onContactClick }) => {
                 <span> Fast moving consumer goods </span>
               </div>
               <br />
-              <h3 className="fe-heading">FMCG Distribution Network Redesign</h3>
+              <h3 className="fe-heading">FMCG Distribution Network <br /> Redesign</h3>
               <br />
 
               <p className="fe-subheading">
