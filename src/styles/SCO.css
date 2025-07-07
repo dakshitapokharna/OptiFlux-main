@@ -182,9 +182,7 @@
     flex-direction: column;
   }
 
-  .aboutleft {
-    display: none;
-  }
+
 
   .supply-container {
     flex-direction: column-reverse;
